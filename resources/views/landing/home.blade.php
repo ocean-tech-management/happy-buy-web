@@ -29,6 +29,10 @@
         color: #ee9134 !important;
     }
 
+    .one-line {
+        white-space: nowrap;overflow: hidden;display: block;text-overflow: ellipsis;
+    }
+
      @media (max-width: 1200px) {
         .top-banner{
             height: 600px;
@@ -326,7 +330,7 @@
             <div class="card cursor-pointer border-0 shadow" style="margin-bottom:2.2rem;">
                 <div class="py-4 px-5" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     <div class="gap-3 h-5 mb-0 text-primary-light d-flex justify-content-between align-items-center">
-                        <span class="text-primary fw-bold">{{ __('landing.accordion_one') }}</span>
+                        <span class="text-primary fw-bold one-line">{{ __('landing.accordion_one') }}</span>
                         <span class="plus"><img src="{{ asset('landing/images/plus.svg') }}" alt="plus"></span>
                     </div>
                 </div>
@@ -339,7 +343,7 @@
             <div class="card cursor-pointer border-0 shadow" style="margin-bottom:2.2rem;">
                 <div class="py-4 px-5" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                     <div class="gap-3 h-5 mb-0 text-primary-light d-flex justify-content-between align-items-center">
-                        <span class="text-primary fw-bold">{{ __('landing.accordion_two') }}</span>
+                        <span class="text-primary fw-bold one-line">{{ __('landing.accordion_two') }}</span>
                         <span class="plus"><img src="{{ asset('landing/images/plus.svg') }}" alt="plus"></span>
                     </div>
                 </div>
@@ -352,7 +356,7 @@
             <div class="card cursor-pointer border-0 shadow" style="margin-bottom:2.2rem;">
                 <div class="py-4 px-5" id="headingFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                     <div class="gap-3 h-5 mb-0 text-primary-light d-flex justify-content-between align-items-center">
-                        <span class="text-primary fw-bold">{{ __('landing.accordion_three') }}</span>
+                        <span class="text-primary fw-bold one-line">{{ __('landing.accordion_three') }}</span>
                         <span class="plus"><img src="{{ asset('landing/images/plus.svg') }}" alt="plus"></span>
                     </div>
                 </div>

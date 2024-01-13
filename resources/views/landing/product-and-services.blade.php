@@ -38,7 +38,7 @@
 
     @media (max-width: 600px) {
         .top-banner{
-            height: 400px;
+            height: 500px;
         }
 
     }
