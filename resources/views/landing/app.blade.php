@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="ThemeZaa">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
-    <meta name="description" content="HappyBuy - A care for your health">
+    <meta name="description" content="HappyBuy - Your ultimate E-Commerce destination">
 {{--    <!-- favicon icon -->--}}
 {{--    <link rel="shortcut icon" href="landing/images/favicon.png">--}}
 {{--    <link rel="apple-touch-icon" href="landing/images/apple-touch-icon-57x57.png">--}}
@@ -26,7 +26,7 @@
 
     <style>
         .body-bg-img{
-            background-image: url('{{asset('landing/images/parallax_bg.png')}}');
+            /* background-image: url('{{asset('landing/images/parallax_bg.png')}}'); */
             /* Set a specific height */
             min-height: 500px;
             /* Create the parallax scrolling effect */

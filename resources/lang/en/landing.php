@@ -77,7 +77,7 @@ return [
     'all_about_erya' => 'All About Erya',
     'erya_at_a_glance' => 'ERYA AT A GLANCE',
     'about_happy_buy_' => 'About Us',
-    'about_happy_buy_description' => 'Globalcare is a dynamic and innovative company founded with a clear purpose — to inspire and facilitate a healthier lifestyle for individuals around the globe. Established recently, Globalcare has quickly positioned itself as a trusted provider of top-quality healthcare products designed to empower consumers in their journey toward well-being.',
+    'about_happy_buy_description' => 'As the core e-commerce platform of Global Hot Chain, HappyBuy Mall is committed to providing excellent products and services to consumers around the world. From high-tech electronics to health care products, from daily household necessities to beauty cosmetics, we carefully select all kinds of high-quality products to meet your all-round life needs.',
     'who_is' => 'WHO IS',
     'erya' => 'ERYA',
     'customer_first,_embrace_change,_teamwork,_integrity,_passion,_dedication,_appreciation,_responsibility' => 'Customer First, Embrace Change, Teamwork, Integrity, Passion, Dedication, Appreciation, Responsibility',
