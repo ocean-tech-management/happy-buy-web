@@ -1,0 +1,68 @@
+.overlay{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(255,255,255,0.8) center no-repeat;
+}
+
+body.loading{
+    overflow: hidden;   
+}
+
+body.loading .overlay{
+    display: block;
+}
+
+@keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.loading {
+    position: relative;
+    opacity: 1 !important;
+    transition: all 0s ease-in-out !important;
+    -moz-transition: all 0s ease-in-out !important;
+    -webkit-transition: all 0s ease-in-out !important;
+    -ms-transition: all 0s ease-in-out !important;
+    -o-transition: all 0s ease-in-out !important;
+    z-index: 999;
+}
+
+.loading::after {
+    background: 0 0;
+    content: "" !important;
+    position: absolute;
+    left: calc(50% - 10px) !important;
+    top: calc(50% - 10px) !important;
+    width: 100px !important;
+    height: 100px !important;
+    opacity: 1 !important;
+    right: inherit !important;
+    z-index: 9;
+    text-align: center;
+    border: 5px solid #f3f3f3;
+    border-top-color: #877a61;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    -webkit-animation: spin 1s linear infinite;
+}
+
+.loading:before {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    width: calc(100% - 4px);
+    height: calc(100% - 2px);
+    border-radius: inherit;
+    z-index: 1;
+}
