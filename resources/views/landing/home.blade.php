@@ -69,8 +69,6 @@
             </div>
         </div>
     </section>
-    <!-- end banner section -->
-    <!-- start section -->
     <section class=" overlap-height wow animate__fadeIn">
         <div class="container">
             <div class="row justify-content-center">
@@ -83,8 +81,6 @@
             </div>
         </div>
     </section>
-    <!-- end section -->
-    <!-- start section -->
     <section class="bg-light-yellow overlap-height wow animate__fadeIn" style="background: #fff5ef;">
         <div class="padding-twelve-lr xl-padding-five-lr lg-padding-two-lr xs-no-padding-lr">
             <div class="container-fluid">
@@ -106,7 +102,7 @@
         </div>
     </section>
 
-    <section class="overlap-height wow animate__fadeIn">
+    {{-- <section class="overlap-height wow animate__fadeIn">
         <div class="container" style="margin-bottom:30px;margin-top:30px;">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-8 col-lg-7 col-sm-8 text-center ">
@@ -268,7 +264,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section class="wow animate__fadeIn position-relative" style="padding:0px;height: 400px;background: url('{{ asset('landing/images/Group 200@2x.png') }}');background-size:cover;">
         {{-- <div class="section-bg-image-blur"></div> --}}
