@@ -106,9 +106,9 @@
                 <div class="d-flex justify-content-center mb-lg-0 mb-5 mr-0 mr-lg-4">
                     <img src="{{ asset('landing/images/HB_01.png') }}" alt="" style="max-width:263px;">
                 </div>
-                <div class="d-flex justify-content-center">
+                {{-- <div class="d-flex justify-content-center">
                     <img src="{{ asset('landing/images/HB_QR.png') }}" alt="" style="border-radius:34px;background:white;max-width:263px;">
-                </div>
+                </div> --}}
                 <div class="p-lg-5 text-lg-left text-center mt-5 mt-lg-0 ml-lg-5 ml-0">
                     <span style="font-size:30px;color:white;font-weight:300;">{{ __('landing.app_download') }}</span>
                     <br><br><br>

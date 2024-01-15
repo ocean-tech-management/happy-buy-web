@@ -7,7 +7,13 @@
                     <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.contact_information') }}</span>
                     <ul>
                         <li>HappyBuy</li>
-                        <li><a href="{{ route('landing.contactUs') }}">G-Vestor Tower Kompleks Pavilion Ampang, Menara G-Vestor, 200, Jalan Ampang, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</a></li>
+                        <li>
+                            <a href="{{ route('landing.contactUs') }}">
+                            23A Floor, Menara Keck Seng,
+                            203 Jalan Bukit Bintang,  
+                            55100 Kuala Lumpur, Malaysia
+                            </a>
+                        </li>
                         <li>supporthappybuy@gmail.com</li>
                     </ul>
                 </div>
@@ -26,7 +32,7 @@
                         <li><a href="{{ route('landing.product-and-services') }}">{{ __('landing.product_and_services') }}</a></li>
                     </ul>
                 </div>
-                <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
+                {{-- <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
                     <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.social_media') }}</span>
                     <ul>
                         <li><a href="#">X (Twitter)</a></li>
@@ -34,7 +40,7 @@
                         <li><a href="#">Youtube</a></li>
                         <li><a href="#">Linktree</a></li>
                     </ul>
-                </div>
+                </div> --}}
                 <div class="col-12 col-lg-4 col-sm-6 xs-margin-25px-bottom">
                 </div>
             </div>
