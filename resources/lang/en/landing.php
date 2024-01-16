@@ -12,30 +12,32 @@ return [
     'captcha_error' => 'Invalid Captcha',
 
     //home
-    'about_below_one' => 'More than 8',
-    'about_below_two' => 'More than 32,000',
-    'about_below_three' => 'Over 4.3 billion US dollars',
-    'about_below_one_description' => 'Business coverage countries',
-    'about_below_two_description' => 'Serving offline beauty industry stores',
-    'about_below_three_description' => 'Our annual turnover',
+    'about_below_one' => 'More than 37 countries and regions',
+    'about_below_two' => 'More than 60,000',
+    'about_below_three' => 'Over 7.2 billion US dollars',
+    'about_below_one_description' => 'Global sales network coverage',
+    'about_below_two_description' => 'Offline beauty industry stores',
+    'about_below_three_description' => 'Our annual turnover <br>(as of 2023)',
+    'about_global_care' => 'About Global Care',
+    'about_global_care_description' => "Global Care is the official registered entity of Happy Buy Mall in Malaysia. It plays an important role in providing Happy Buy Mall's full range of products and services to the Asia-Pacific market. Through Global Care, Happy Buy Mall is able to deepen its market penetration in the Asia-Pacific region, ensuring that local consumers are provided with a customized shopping experience and meet their specific needs.",
     'accordion_one' => 'What is the relationship between Happy Buy Mall and Global Hot Chain?',
     'accordion_two' => 'How strong is the parent company of Happy Buy Mall?',
     'accordion_three' => 'Where is Happy Buy Mall headquartered?',
     'accordion_one_description' => 'As the parent company of Happy Buy Mall, Global Hot Chain provides strong backing and resource support to Happy Buy Mall. Global Hot Chain is headquartered in New York, USA and was founded in 2017. It aims to provide efficient, reliable and innovative products and supply chain solutions to various industries around the world. Global Hot Chain uses advanced technology and professional teams to provide customers with customized services, including procurement, warehousing, transportation, distribution, cross-border e-commerce, etc.',
-    'accordion_two_description' => "Very powerful. Since its establishment, Global Hot Chain has been committed to providing efficient, reliable, innovative products and supply chain solutions to various industries around the world. Through advanced technology and professional teams, Global Hot Chain provides customers with customized services, covering procurement, warehousing, transportation, distribution and cross-border e-commerce. In the field of online e-commerce, the company mainly deals in health and beauty products and household daily chemicals, and provides various high-quality goods and services through Happy Buy Mall. In addition, Global Hot Chain has 32,000 offline main stores worldwide, focusing on the supply of graphene-based health equipment and beauty industry services, providing consumers with innovative health solutions. In terms of financial strength, Global Hot Chain’s total assets reach US$6.5 billion, with annual profits exceeding US$700 million. The company's strategic goal is to complete listing on the New York Stock Exchange in 2027, create continuous added value for shareholders, employees, customers and society, and become the world's leading comprehensive business platform.",
+    'accordion_two_description' => "Very powerful. Since its establishment, Global Hot Chain has been committed to providing efficient, reliable, innovative products and supply chain solutions to various industries around the world. Through advanced technology and professional teams, Global Hot Chain provides customers with customized services, covering procurement, warehousing, transportation, distribution and cross-border e-commerce. In the field of online e-commerce, the company mainly deals in health and beauty products and household daily chemicals, and provides various high-quality goods and services through Happy Buy Mall. In addition, Global Hot Chain has 32,000 offline main stores worldwide, focusing on the supply of graphene-based health equipment and beauty industry services, providing consumers with innovative health solutions. <br><br>In terms of financial strength, Global Hot Chain’s total assets reach US$6.5 billion, with annual profits exceeding US$700 million. The company's strategic goal is to complete listing on the New York Stock Exchange in 2027, create continuous added value for shareholders, employees, customers and society, and become the world's leading comprehensive business platform.",
     'accordion_three_description' => 'Currently, Happy Buy Mall is headquartered in New York, USA. Regarding plans to establish headquarters in other regions, the company is considering opening its Asia Pacific headquarters in Malaysia to meet the business development needs of the region.',
     'strategic_partner' => 'Strategic Partner',
     'brand_special' => 'Brand Specials',
     'great_value_buy' => 'Great Value Buy',
     'our_mission' => 'Our Mission',
-    'our_mission_description' => 'Through an excellent supply chain system, we provide customers with efficient, convenient and safe global supply chain services.',
+    'our_mission_description' => 'Establish an excellent global supply chain to provide high-quality health products.',
     'our_vision' => 'Our Vision',
-    'our_vision_description' => 'Become the leader of a global comprehensive business platform, lead the development of the global business ecosystem and create sustainable business value through innovative supply chain management and business services.',
+    'our_vision_description' => 'A leader in the global health industry, promoting industry prosperity.',
     'low_price_flash_sale' => 'Low Price Flash Sale',
     'home_blue' => 'Relying on the powerful global supply chain system of our parent company Global Hot Chain, we ensure that every product is strictly screened. We always insist on choosing the best for you.',
     'self_love_and_confidence' => 'HAPPYBUY MALL',
-    'starts_from' => 'Gathering good things from around the world, Adhere to the lowest price across the entire chain',
-    'the_innerself' => '',
+    'starts_from' => 'Global Shopping',
+    'the_innerself' => 'Preferred Place',
     'erya_at_a_glance_' => 'ERYA AT A GLANCE',
     'our_essence' => 'OUR ESSENCE',
     'globalcare’s_core_value' => 'Globalcare’s Core Value',
@@ -62,7 +64,217 @@ return [
     'by_turning_crisis_into_opportunity_combined_with_steady_development,_we_have_created_our_blue_ocean._we_are_ready_to_accept_new_challenges_and_keep_challenging_ourselves_to_create_breakthroughs._together,_we_aim_to_explore_the_global_market_to_spread_great_health_products_to_all_women.' => 'By turning crisis into opportunity combined with steady development, we have created our blue ocean. We are ready to accept new challenges and keep challenging ourselves to create breakthroughs. Together, we aim to explore the global market to spread great health products to all women.',
     'our_product_line-ups_are_carefully_crafted,_curated,_and_developed_to_bring_out_the_best_of_you._we_strive_to_help_bring_out_your_natural_curves,_enhancing_your_health_and_confidence,_starting_from_within.' => 'Our product line-ups are carefully crafted, curated, and developed to bring out the best of you. We strive to help bring out your natural curves, enhancing your health and confidence, starting from within.',
     'join_us_and_together_we_can_spread_the_greatness_of_health_and_wellness._let_us_create_a_new_landscape_and_blue_ocean_in_this_market_together.' => 'Join us and together we can spread the greatness of health and wellness. Let us create a new landscape and blue ocean in this market together.',
-
+    'investment_relation' => 'Investor Relations',
+    'ghc_partners' => "GHC Group Partners and Service Clients",
+    'faq' => 'Frequently Asked Questions',
+    'faq_1' => 'What is the relationship between Happy Buy Mall and Global Hot Chain?',
+    'faq_description_1' => 'As the parent company of Happy Buy Mall, Global Hot Chain provides strong support and resources to Happy Buy Mall. Headquartered in New York, USA, Global Hot Chain was established in 2017 with the aim of providing efficient, reliable, and innovative products and supply chain solutions to various industries worldwide. Leveraging advanced technology and a professional team, Global Hot Chain offers customized services to clients, including procurement, warehousing, transportation, distribution, and cross-border e-commerce.',
+    'faq_2' => 'How strong is the parent company of Happy Buy Mall?',
+    'faq_description_2' => "It is very robust. Since its inception, Global Hot Chain has been dedicated to providing efficient, reliable, and innovative products and supply chain solutions to various industries worldwide. Through advanced technology and a professional team, Global Hot Chain offers customized services covering procurement, warehousing, transportation, distribution, and cross-border e-commerce. In the online e-commerce sector, the company focuses on major health and beauty products and household daily necessities, providing a variety of high-quality goods and services through Happy Buy Mall. Additionally, Global Hot Chain operates 32,000 offline flagship stores globally, specializing in the supply of graphene-based health equipment and beauty services, offering innovative health solutions to consumers.<br><br> In terms of financial strength, Global Hot Chain's total assets exceed $6.5 billion, with an annual profit of over $700 million. The company's strategic goal is to go public on the New York Stock Exchange by 2027, creating sustained value for shareholders, employees, customers, and society, and becoming a leading global comprehensive business platform.",
+    'faq_3' => 'What is the relationship between Global Care and Happy Buy Mall?',
+    'faq_description_3' => "Global Care is the official registered entity of Happy Buy Mall in Malaysia, playing a crucial role in providing Happy Buy Mall's full range of products and services to the Asia-Pacific market.",
+    'our_service' =>  "Our Services",
+    'our_service_title' => "With the strong global supply chain system of the parent company Global Hot Chain, we ensure that every product undergoes rigorous selection.",
+    'our_service_subtitle' => "We always insist on selecting the best for you.",
+    'offline_physical_store' => "Offline Physical Experience Stores",
+    'offline_physical_store_description' => "GHC Group has 60,000+ physical stores worldwide, equipped with experience zones for consumers to personally try out products and experience their performance and quality. Physical stores also play a role in brand promotion and customer service. By organizing events and providing professional consultations, they enhance interaction with consumers and brand loyalty. GHC Group\'s physical stores also incorporate online consultation services with medical experts. Through advanced video communication technology, consumers can engage in real-time communication with professional medical personnel, obtaining health advice and personalized medical recommendations.",
+    'online_and_offline_integration_strategy' => "Online and Offline Integration Strategy",
+    'online_and_offline_integration_strategy_description' => "GHC Group achieves seamless synchronization of product information and integrated analysis of customer data through seamless online and offline integration. The convenience of online platforms combined with the experiential nature of offline stores provides consumers with a comprehensive shopping experience.",
+    'offline_physical_store_1' => "Coverage Area",
+    'offline_physical_store_description_1' => "Over 37 countries and regions",
+    'offline_physical_store_2' => "Retail Partners",
+    'offline_physical_store_description_2' => "1200+",
+    'offline_physical_store_3' => "Sales Network",
+    'offline_physical_store_description_3' => "North America, Europe, Asia, South America, Africa, and Oceania",
+    'offline_physical_store_detail' => "GHC Group collaborates with local retailers, distributors, and e-commerce platforms in various markets to achieve widespread product distribution. We delve into the unique resources of each country, selecting the most representative high-quality products, such as natural herbal health products in Asia, advanced medical devices in Europe, and innovative technological products in North America. These products are incorporated into GHC\'s global sales network to meet the specific needs of consumers in different regions. Furthermore, we have established dedicated customer service centers in major global markets, providing multilingual support to better serve consumers in different countries and regions. <br><br> Additionally, GHC Group emphasizes a localization strategy, customizing products and marketing activities to adapt to the cultural differences and consumer preferences of each region. Our sales team comprises experienced international sales experts who have in-depth knowledge of global markets and can quickly respond to market changes. <br><br> To further enhance sales efficiency and customer satisfaction, GHC Group invests in logistics and supply chain management, ensuring that products can be transported from production sites to sales locations at the fastest speed. Our goal is to establish an efficient, flexible, and reliable global sales network to support GHC Group's continuous growth and market leadership.",
+    'global_sales_network' => 'Exclusive global sales network',
+    '2024_plan' => "Happy Buy Mall 2024 Development Plan",
+    'plans' => [
+        '1' => [
+            'month' => 'Jan',
+            'title' => 'Preparation Month',
+            'schedules' => [
+                '1' => [
+                    'date' => 'January 15th',
+                    'event' => 'HappyBuy Website Launch'
+                ],
+                '2' => [
+                    'date' => 'January 20th',
+                    'event' => 'HappyBuy APP Beta Testing'
+                ],
+                '3' => [
+                    'date' => 'January 25th',
+                    'event' => 'Start Product Manufacturing'
+                ],
+            ]
+        ],
+        '2' => [
+            'month' => 'Feb',
+            'title' => 'Marketing Launch and Layout Month',
+            'schedules' => [
+                '1' => [
+                    'date' => 'February 19th',
+                    'event' => 'Online and Offline Seminars'
+                ],
+                '2' => [
+                    'date' => 'February 27th',
+                    'event' => 'Initiate Marketing Activities'
+                ],
+            ]
+        ],
+        '3' => [
+            'month' => 'Mar',
+            'title' => 'Marketing Launch and Layout Month',
+            'schedules' => [
+                '1' => [
+                    'date' => 'March 5th',
+                    'event' => 'Collaborate with Government Departments to Implement Technical Skills Education'
+                ],
+                '2' => [
+                    'date' => 'March 10th',
+                    'event' => 'Coordinate with Government Departments to Launch Social Welfare Activities'
+                ],
+                '3' => [
+                    'date' => 'March 25th',
+                    'event' => 'Collaborate with Government Departments to Jointly Host a Health Industry Seminar'
+                ],
+            ]
+        ],
+        '4' => [
+            'month' => 'Apr',
+            'title' => 'Internet Celebrity Full Launch Month',
+            'schedules' => [
+                '1' => [
+                    'date' => 'April 6th',
+                    'event' => 'Initiate Global Personal IP Building for Distributors'
+                ],
+                '2' => [
+                    'date' => 'April 15th',
+                    'event' => 'National Offline Store Matrix Launch'
+                ],
+                '3' => [
+                    'date' => 'April 26th',
+                    'event' => 'Initiate MCN Management Agency'
+                ],
+            ]
+        ],
+        '5' => [
+            'month' => 'May',
+            'title' => 'National Store Opening Month',
+            'schedules' => [
+                '1' => [
+                    'date' => 'May 15th',
+                    'event' => 'Health Management Training Meeting'
+                ],
+                '2' => [
+                    'date' => 'May 20th',
+                    'event' => 'Store Marketing Management Training'
+                ],
+            ]
+        ],
+        '6' => [
+            'month' => 'Jun',
+            'title' => 'Half-Year Summary and Second Half-Year Layout Month',
+            'schedules' => [
+                '1' => [
+                    'date' => 'June 20th',
+                    'event' => 'Half-Year Summary and Second Half-Year Layout Meeting'
+                ],
+            ]
+        ],
+        '7' => [
+            'month' => 'Jul',
+            'title' => 'Capital Connection Month',
+            'schedules' => [
+                '1' => [
+                    'date' => 'July 15th',
+                    'event' => 'Capital Project Introduction Meeting'
+                ],
+                '2' => [
+                    'date' => 'July 30th',
+                    'event' => 'National Investment Promotion Conference'
+                ],
+            ]
+        ],
+        '8' => [
+            'month' => 'Aug',
+            'title' => 'Public Welfare and Charity Circular Launch Month',
+            'schedules' => [
+                '1' => [
+                    'date' => 'August 9th',
+                    'event' => 'National Health Charity Circular'
+                ],
+                '2' => [
+                    'date' => 'August 13th',
+                    'event' => 'Global Matrix Advertising Launch'
+                ],
+                '3' => [
+                    'date' => 'August 25th',
+                    'event' => 'Health Industry Conference'
+                ],
+                '4' => [
+                    'date' => 'August 31st',
+                    'event' => 'Malaysia Independence Day Sales'
+                ],
+            ]
+        ],
+        '9' => [
+            'month' => 'Sep',
+            'title' => 'Establishment Month for Subsidiaries in Various States Nationwide',
+            'schedules' => [
+                '1' => [
+                    'date' => 'September 25th',
+                    'event' => 'Establish Subsidiaries in Various States Nationwide'
+                ],
+                '2' => [
+                    'date' => 'September 30th',
+                    'event' => 'Establish Branches of Business School Nationwide'
+                ],
+            ]
+        ],
+        '10' => [
+            'month' => 'Oct',
+            'title' => 'Month for Health Science Research',
+            'schedules' => [
+                '1' => [
+                    'date' => 'October 5th',
+                    'event' => 'Establish Health Research Institute'
+                ],
+                '2' => [
+                    'date' => 'October 10th',
+                    'event' => 'Establish Capital Investment Company'
+                ],
+                '3' => [
+                    'date' => 'October 25th',
+                    'event' => 'Establish Technical School'
+                ],
+            ]
+        ],
+        '11' => [
+            'month' => 'Nov',
+            'title' => 'Month for Health Network Influencer Selection',
+            'schedules' => [
+                '1' => [
+                    'date' => 'November 18th',
+                    'event' => 'National Investment Promotion Conference'
+                ],
+                '2' => [
+                    'date' => 'November 28th',
+                    'event' => 'Health Network Influencer Selection'
+                ],
+            ]
+        ],
+        '12' => [
+            'month' => 'Dec',
+            'title' => 'Year-End Summary and IPO Preparation Month',
+            'schedules' => [
+                '1' => [
+                    'date' => 'December 29th',
+                    'event' => 'Year-End Summary and IPO Preparation Conference'
+                ],
+            ]
+        ],
+    ],
     //product
     'curated_lineup' => 'CURATED LINEUP',
     'our_products' => 'Our Products',
@@ -77,7 +289,7 @@ return [
     'all_about_erya' => 'All About Erya',
     'erya_at_a_glance' => 'ERYA AT A GLANCE',
     'about_happy_buy_' => 'About Us',
-    'about_happy_buy_description' => 'As the core e-commerce platform of Global Hot Chain, HappyBuy Mall is committed to providing excellent products and services to consumers around the world. From high-tech electronics to health care products, from daily household necessities to beauty cosmetics, we carefully select all kinds of high-quality products to meet your all-round life needs.',
+    'about_happy_buy_description' => 'Happy Buy Mall is the core e-commerce platform under the Global Hot Chain Group, focusing on providing a diverse range of products and services to consumers worldwide. Our product offerings include high-tech graphene series products, advanced health and wellness supplements, technological beauty products, and a variety of premium lifestyle essentials. Happy Buy Mall is steadfast in its commitment to fulfilling your comprehensive lifestyle needs.',
     'who_is' => 'WHO IS',
     'erya' => 'ERYA',
     'customer_first,_embrace_change,_teamwork,_integrity,_passion,_dedication,_appreciation,_responsibility' => 'Customer First, Embrace Change, Teamwork, Integrity, Passion, Dedication, Appreciation, Responsibility',

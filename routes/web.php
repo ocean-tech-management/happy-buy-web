@@ -676,7 +676,9 @@ Route::get('/product/{id}', 'LandingController@productDetails')->name('landing.p
 Route::post('/getSizeVariant', 'LandingController@getSizeVariant')->name('landing.product-size-variant');
 Route::post('/getQtyVariant', 'LandingController@getQtyVariant')->name('landing.product-qty-variant');
 Route::get('/about-us', 'LandingController@about_us')->name('landing.aboutUs');
-Route::get('/product-and-services', 'LandingController@productAndServices')->name('landing.product-and-services');
+Route::get('/our-service', 'LandingController@ourService')->name('landing.our-service');
+Route::get('/investment-relation', 'LandingController@investmentRelation')->name('landing.investment-relation');
+Route::get('/faq', 'LandingController@faq')->name('landing.faq');
 Route::get('/join-us', 'LandingController@join_us')->name('landing.joinUs');
 Route::get('/product-qr-check', 'LandingController@product_qr_check')->name('landing.productQRCheck');
 Route::post('/product-qr-check', 'LandingController@product_qr_check_action')->name('landing.productQRCheckAction');

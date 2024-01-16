@@ -17,19 +17,21 @@
                         <li>supporthappybuy@gmail.com</li>
                     </ul>
                 </div>
-                <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
+                {{-- <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
                     <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.categories') }}</span>
                     <ul>
                         <li><a href="{{ route('landing.home') }}">{{ __('landing.brand_special') }}</a></li>
                         <li><a href="{{ route('landing.home') }}">{{ __('landing.great_value_buy') }}</a></li>
                         <li><a href="{{ route('landing.home') }}">{{ __('landing.low_price_flash_sale') }}</a></li>
                     </ul>
-                </div>
+                </div> --}}
                 <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
-                    <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.about_happy_buy') }}</span>
+                    <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.site_map') }}</span>
                     <ul>
                         <li><a href="{{ route('landing.aboutUs') }}">{{ __('landing.about_us') }}</a></li>
-                        <li><a href="{{ route('landing.product-and-services') }}">{{ __('landing.product_and_services') }}</a></li>
+                        <li><a href="{{ route('landing.our-service') }}">{{ __('landing.our_service') }}</a></li>
+                        <li><a href="{{ route('landing.investment-relation') }}">{{ __('landing.investment_relation') }}</a></li>
+                        {{-- <li><a href="{{ route('landing.faq') }}">{{ __('landing.faq') }}</a></li> --}}
                     </ul>
                 </div>
                 {{-- <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">

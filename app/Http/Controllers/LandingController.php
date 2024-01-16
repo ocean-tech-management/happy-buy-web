@@ -22,9 +22,19 @@ class LandingController extends Controller
         return view('landing.home');
     }
 
-    public function productAndServices()
+    public function ourService()
     {
-        return view('landing.product-and-services');
+        return view('landing.our-service');
+    }
+
+    public function faq()
+    {
+        return view('landing.faq');
+    }
+
+    public function investmentRelation()
+    {
+        return view('landing.investment-relation');
     }
 
     public function product()

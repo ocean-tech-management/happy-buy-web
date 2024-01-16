@@ -34,12 +34,18 @@
                         <li class="nav-item">
                             <a href="{{ route('landing.productQRCheck') }}" class="nav-link">{{ __('landing.product_qr_check') }}</a>
                         </li> --}}
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a href="{{ route('landing.aboutUs') }}" class="nav-link">{{ __('landing.about_us') }}</a>
+                        </li> --}}
+                        <li class="nav-item">
+                            <a href="{{ route('landing.our-service') }}" class="nav-link">{{ __('landing.our_service') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('landing.product-and-services') }}" class="nav-link">{{ __('landing.product_and_services') }}</a>
+                            <a href="{{ route('landing.investment-relation') }}" class="nav-link">{{ __('landing.investment_relation') }}</a>
                         </li>
+                        {{-- <li class="nav-item">
+                            <a href="{{ route('landing.faq') }}" class="nav-link">{{ __('landing.faq') }}</a>
+                        </li> --}}
 
                     </ul>
                 </div>
