@@ -79,7 +79,7 @@
     </section>
 
 
-    <section class="wow animate__fadeIn position-relative" style="padding:0px;height: 350px;background: url('{{ asset('landing/images/revenue.png') }}');background-size:cover;">
+    <section class="wow animate__fadeIn position-relative" style="padding:0px;height: 400px;background: url('{{ asset('landing/images/revenue.png') }}');background-size:cover;">
         <div class="container absolute-middle-center py-5">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-9 col-lg-8 col-sm-8 text-center">
