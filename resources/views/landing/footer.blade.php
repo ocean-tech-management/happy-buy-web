@@ -28,10 +28,10 @@
                 <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
                     <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.site_map') }}</span>
                     <ul>
-                        <li><a href="{{ route('landing.aboutUs') }}">{{ __('landing.about_us') }}</a></li>
+                        <li><a href="{{ route('landing.home') }}">{{ __('landing.home') }}</a></li>
                         <li><a href="{{ route('landing.products-and-services') }}">{{ __('landing.our_service') }}</a></li>
                         <li><a href="{{ route('landing.investment-relation') }}">{{ __('landing.investment_relation') }}</a></li>
-                        {{-- <li><a href="{{ route('landing.faq') }}">{{ __('landing.faq') }}</a></li> --}}
+                        <li><a href="{{ route('landing.faq') }}">{{ __('landing.faq') }}</a></li>
                     </ul>
                 </div>
                 {{-- <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">

@@ -43,9 +43,9 @@
                         <li class="nav-item">
                             <a href="{{ route('landing.investment-relation') }}" class="nav-link">{{ __('landing.investment_relation') }}</a>
                         </li>
-                        {{-- <li class="nav-item">
+                        <li class="nav-item">
                             <a href="{{ route('landing.faq') }}" class="nav-link">{{ __('landing.faq') }}</a>
-                        </li> --}}
+                        </li>
 
                     </ul>
                 </div>
