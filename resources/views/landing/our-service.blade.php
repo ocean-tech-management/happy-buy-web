@@ -64,6 +64,53 @@
         </div>
     </section>
 
+    <section class="wow animate__fadeIn" style="background:#000">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="{{ asset('landing/images/black_door.png') }}" alt="">
+                </div>
+                <div class="col-md-6">
+                    <span
+                        class="title-small alt-font text-primary font-weight-300 d-block margin-50px-bottom letter-spacing-3px">{{ __('landing.graphene_health_device') }}</span>
+                    <h5 class="text-extra-large2 alt-font text-extra-medium-gray font-weight-300 letter-spacing-minus-1px mb-0"
+                        style="line-height: 42px">{{ __('landing.graphene_health_device_description') }}</h5>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section class="overlap-height wow animate__fadeIn">
+        <span class="text-center title-small alt-font text-primary font-weight-300 d-block margin-50px-bottom letter-spacing-3px mx-4">{{ __('landing.graphene_product') }}</span>
+        <div class="padding-twelve-lr xl-padding-five-lr lg-padding-two-lr xs-no-padding-lr">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    @for($i = 1; $i <= 4; $i++)
+                        <div class="col-lg col-md-4 p-3 d-flex align-items-center flex-column mb-md-0 mb-5 text-center">
+                            <img src='{{ asset("landing/images/graphene_product_$i.png") }}' alt="">
+                            <div class="text-primary mt-2" style="font-size:20px;">{{ __("landing.graphene_product_$i") }}</div>                        
+                        </div>
+                    @endfor
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <section class="bg-light-yellow overlap-height wow animate__fadeIn" style="background: #fff5ef;">
+        <span class="text-center title-small alt-font text-primary font-weight-300 d-block margin-50px-bottom letter-spacing-3px mx-4">{{ __('landing.our_product') }}</span>
+        <div class="padding-twelve-lr xl-padding-five-lr lg-padding-two-lr xs-no-padding-lr">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    @for($i = 1; $i <= 3; $i++)
+                        <div class="col-lg col-md-4 p-3 d-flex align-items-center flex-column mb-md-0 mb-5 text-center">
+                            <img src='{{ asset("landing/images/our_product_$i.png") }}' alt="">
+                            <div class="text-primary mt-2" style="font-size:20px;">{{ __("landing.our_product_$i") }}</div>                        
+                        </div>
+                    @endfor
+                </div>
+            </div>
+        </div>
+    </section> 
 
     <section class=" overlap-height wow animate__fadeIn">
         <div class="container">
@@ -126,23 +173,24 @@
         </div>
     </section>
 
-    {{-- <section style="background:url('{{ asset('landing/images/orange_gradient.png') }}');background-size:cover;">
+    <section class="pb-0 wow animate__fadeIn" style="background:url('{{ asset('landing/images/orange_gradient.png') }}');background-size:cover;">
         <div class="container">
-            <div class="p-5 d-flex flex-lg-row flex-column">
-                <div class="d-flex justify-content-center mb-lg-0 mb-5 mr-0 mr-lg-4">
-                    <img src="{{ asset('landing/images/HB_01.png') }}" alt="" style="max-width:263px;">
+            <div class="row">
+                <div class="col-md-6 py-5 d-flex flex-column justify-content-center">
+                    <span class="text-center text-md-left px-4 px-md-0" style="font-size:30px;color:white;font-weight:300;">{{ __('landing.launch_soon') }}</span>
+                    <br><br>
+                    <span class="text-center text-md-left" style="font-size:30px;color:white;font-weight:300;">{{ __('landing.download') }}</span>
+                    <br><br>
+                    <div class="mx-md-0 mx-auto">
+                        <button class="text-primary btn bg-white shadow w-auto rounded-pill px-5 py-2" style="font-size:20px;">
+                            {{ __('landing.app_download') }}
+                        </button>
+                    </div>
                 </div>
-                <div class="d-flex justify-content-center">
-                    <img src="{{ asset('landing/images/HB_QR.png') }}" alt="" style="border-radius:34px;background:white;max-width:263px;">
-                </div>
-                <div class="p-lg-5 text-lg-left text-center mt-5 mt-lg-0 ml-lg-5 ml-0">
-                    <span style="font-size:30px;color:white;font-weight:300;">{{ __('landing.app_download') }}</span>
-                    <br><br><br>
-                    <span style="font-size:30px;color:white;font-weight:300;">{{ __('landing.download_now_one') }}</span>
-                    <br>
-                    <span style="font-size:30px;color:white;font-weight:300;">{{ __('landing.download_now_two') }}</span>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <img src="{{ asset('landing/images/screen.png') }}" alt="">
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 @endsection
