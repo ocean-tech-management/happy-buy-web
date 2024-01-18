@@ -73,7 +73,7 @@ return [
     'faq_description_2' => '实力非常强悍。自成立以来，Global Hot Chain一直致力于为全球各行业提供高效、可靠、创新的产品及供应链解决方案。通过先进的技术和专业团队，Global Hot Chain为客户提供定制化的服务，覆盖采购、仓储、运输、配送以及跨境电商等领域。在线电商领域，公司主营大健康美业产品和家庭用日化品，通过Happy Buy Mall提供各类高品质商品和服务。此外，Global Hot Chain在全球范围内拥有32,000家线下主营店，专注于石墨烯的大健康设备供应和美业服务，为消费者提供创新健康解决方案。<br><br> 在财务实力方面，Global Hot Chain总资产达到65亿美元，年利润超过7亿美元。公司的战略目标是在2027年完成在纽约证券交易所的上市，为股东、员工、客户和社会创造持续增值，成为全球领先的综合性商业平台。',
     'faq_3' => 'Global Care和Happy Buy Mall的关系？',
     'faq_description_3' => 'Global Care 是 Happy Buy Mall 在马来西亚的官方注册实体，它承担着为亚太地区市场提供 Happy Buy Mall 全线产品和服务的重要角色。',
-    'our_service' =>  '我们的服务',
+    'our_service' =>  '产品与服务',
     'our_service_title' => '依托母公司Global Hot Chain <br>强大的全球供应链体系 <br>我们确保每一件商品都 <br>经过严格筛选。',
     'our_service_subtitle' => '我们始终坚持为您挑选最好的。',
     'offline_physical_store' => '线下实体体验店',

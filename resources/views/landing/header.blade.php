@@ -38,7 +38,7 @@
                             <a href="{{ route('landing.aboutUs') }}" class="nav-link">{{ __('landing.about_us') }}</a>
                         </li> --}}
                         <li class="nav-item">
-                            <a href="{{ route('landing.our-service') }}" class="nav-link">{{ __('landing.our_service') }}</a>
+                            <a href="{{ route('landing.products-and-services') }}" class="nav-link">{{ __('landing.our_service') }}</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('landing.investment-relation') }}" class="nav-link">{{ __('landing.investment_relation') }}</a>
