@@ -184,7 +184,7 @@
         </div>
     </section>
 
-    {{-- <section class="overlap-height wow animate__fadeIn">
+    <section class="overlap-height wow animate__fadeIn">
         <div class="container" style="margin-bottom:30px;margin-top:30px;">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-8 col-lg-7 col-sm-8 text-center ">
@@ -197,40 +197,32 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col px-md-0">
-                        <ul class="portfolio-overlay portfolio-wrapper grid grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large text-center"
+                        <ul class="portfolio-overlay portfolio-wrapper grid grid-3col xl-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large text-center"
                             style="position: relative; height: 524.6px;">
                             <li class="grid-sizer"></li>
 
                             <li class="grid-item wow animate__fadeInUp"
                                 style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeInUp;">
                                 <div class="portfolio-box">
-                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_1.png') }}" style="width: 280px;height: 280px"/>
-                                    <span
-                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span>
+                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_1.jpg') }}" style="width: 280px;height: 280px"/>
+                                    {{-- <span
+                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span> --}}
                                 </div>
                             </li>
                             <li class="grid-item wow animate__fadeInUp"
                                 style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeInUp;">
                                 <div class="portfolio-box">
-                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_2.png') }}" style="width: 280px;height: 280px"/>
-                                    <span
-                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span>
+                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_2.jpg') }}" style="width: 280px;height: 280px"/>
+                                    {{-- <span
+                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span> --}}
                                 </div>
                             </li>
                             <li class="grid-item wow animate__fadeInUp"
                                 style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeInUp;">
                                 <div class="portfolio-box">
-                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_3.png') }}" style="width: 280px;height: 280px"/>
-                                    <span
-                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span>
-                                </div>
-                            </li>
-                            <li class="grid-item wow animate__fadeInUp"
-                                style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeInUp;">
-                                <div class="portfolio-box">
-                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_4.png') }}" style="width: 280px;height: 280px"/>
-                                    <span
-                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span>
+                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_3.jpg') }}" style="width: 280px;height: 280px"/>
+                                    {{-- <span
+                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span> --}}
                                 </div>
                             </li>
                         </ul>
@@ -238,115 +230,7 @@
                 </div>
             </div>
         </div>
-
-        <div class="container" style="margin-bottom:30px;margin-top:30px;">
-            <div class="row justify-content-center">
-                <div class="col-12 col-xl-8 col-lg-7 col-sm-8 text-center ">
-                    <span
-                        class="title-small text-primary alt-font dark-gold font-weight-300 d-block margin-50px-bottom letter-spacing-3px">{{ __('landing.great_value_buy') }}</span>
-                </div>
-            </div>
-        </div>
-        <div class="padding-twelve-lr xl-padding-five-lr lg-padding-two-lr xs-no-padding-lr">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col px-md-0">
-                        <ul class="portfolio-overlay portfolio-wrapper grid grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large text-center"
-                            style="position: relative; height: 524.6px;">
-                            <li class="grid-sizer"></li>
-
-                            <li class="grid-item wow animate__fadeInUp"
-                                style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeInUp;">
-                                <div class="portfolio-box">
-                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_1.png') }}" style="width: 280px;height: 280px"/>
-                                    <span
-                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span>
-                                </div>
-                            </li>
-                            <li class="grid-item wow animate__fadeInUp"
-                                style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeInUp;">
-                                <div class="portfolio-box">
-                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_2.png') }}" style="width: 280px;height: 280px"/>
-                                    <span
-                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span>
-                                </div>
-                            </li>
-                            <li class="grid-item wow animate__fadeInUp"
-                                style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeInUp;">
-                                <div class="portfolio-box">
-                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_3.png') }}" style="width: 280px;height: 280px"/>
-                                    <span
-                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span>
-                                </div>
-                            </li>
-                            <li class="grid-item wow animate__fadeInUp"
-                                style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeInUp;">
-                                <div class="portfolio-box">
-                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_4.png') }}" style="width: 280px;height: 280px"/>
-                                    <span
-                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container" style="margin-bottom:30px;margin-top:30px;">
-            <div class="row justify-content-center">
-                <div class="col-12 col-xl-8 col-lg-7 col-sm-8 text-center ">
-                    <span
-                        class="title-small text-primary alt-font dark-gold font-weight-300 d-block margin-50px-bottom letter-spacing-3px">{{ __('landing.low_price_flash_sale') }}</span>
-                </div>
-            </div>
-        </div>
-        <div class="padding-twelve-lr xl-padding-five-lr lg-padding-two-lr xs-no-padding-lr">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col px-md-0">
-                        <ul class="portfolio-overlay portfolio-wrapper grid grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large text-center"
-                            style="position: relative; height: 524.6px;">
-                            <li class="grid-sizer"></li>
-
-                            <li class="grid-item wow animate__fadeInUp"
-                                style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeInUp;">
-                                <div class="portfolio-box">
-                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_1.png') }}" style="width: 280px;height: 280px"/>
-                                    <span
-                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span>
-                                </div>
-                            </li>
-                            <li class="grid-item wow animate__fadeInUp"
-                                style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeInUp;">
-                                <div class="portfolio-box">
-                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_2.png') }}" style="width: 280px;height: 280px"/>
-                                    <span
-                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span>
-                                </div>
-                            </li>
-                            <li class="grid-item wow animate__fadeInUp"
-                                style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeInUp;">
-                                <div class="portfolio-box">
-                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_3.png') }}" style="width: 280px;height: 280px"/>
-                                    <span
-                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span>
-                                </div>
-                            </li>
-                            <li class="grid-item wow animate__fadeInUp"
-                                style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeInUp;">
-                                <div class="portfolio-box">
-                                    <img class="margin-50px-bottom" src="{{ asset('landing/images/product_4.png') }}" style="width: 280px;height: 280px"/>
-                                    <span
-                                        class="text-extra-medium alt-font text-extra-medium-gray font-weight-400 d-block margin-15px-bottom ">Product 1</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
+    </section>
 
     {{-- <section class="wow animate__fadeIn position-relative" style="padding:0px;height: 400px;background: url('{{ asset('landing/images/Group 200@2x.png') }}');background-size:cover;">
         <div class="container absolute-middle-center">
