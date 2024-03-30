@@ -103,6 +103,7 @@ return [
     'download' => 'Download our app and enjoy shopping for the best health and beauty products at the best prices!',
     '2024_plan' => "Happy Buy Mall 2024 Development Plan",
     'plans' => [
+        /*
         '1' => [
             'month' => 'Jan',
             'title' => 'Preparation Month',
@@ -135,6 +136,7 @@ return [
                 ],
             ]
         ],
+        */
         '3' => [
             'month' => 'Mar',
             'title' => 'Start preparation month',
