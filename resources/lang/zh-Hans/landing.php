@@ -12,9 +12,9 @@ return [
     'captcha_error' => '无效Captcha',
 
     //home
-    'about_below_one' => '超37个国家和地区',
-    'about_below_two' => '超60,000家',
-    'about_below_three' => '超 72亿 美金',
+    'about_below_one' => '超10个国家和地区',
+    'about_below_two' => '超30,000家',
+    'about_below_three' => '超 36亿 美金',
     'about_below_one_description' => '全球销售网络覆盖',
     'about_below_two_description' => '线下美业门店',
     'about_below_three_description' => '我们的年营业额 <br>（截至2023年）',
@@ -23,8 +23,8 @@ return [
     'accordion_one' => 'Happy Buy Mall和Global Hot Chain是什么关系？',
     'accordion_two' => 'Happy Buy Mall母公司实力如何？',
     'accordion_three' => 'Happy Buy Mall总部设在哪里？',
-    'accordion_one_description' => 'Global Hot Chain作为Happy Buy Mall的母公司，为Happy Buy Mall提供强大的后盾和资源支持。Global Hot Chain总部位于美国纽约，成立于2017年，旨在为全球各行业提供高效、可靠、创新的产品及供应链解决方案。Global Hot Chain利用先进的技术和专业的团队，为客户提供定制化的服务，包括采购、仓储、运输、配送、跨境电商等。',
-    'accordion_two_description' => '实力非常强悍。自成立以来，Global Hot Chain一直致力于为全球各行业提供高效、可靠、创新的产品及供应链解决方案。通过先进的技术和专业团队，Global Hot Chain为客户提供定制化的服务，覆盖采购、仓储、运输、配送以及跨境电商等领域。在线电商领域，公司主营大健康美业产品和家庭用日化品，通过Happy Buy Mall提供各类高品质商品和服务。此外，Global Hot Chain在全球范围内拥有32,000家线下主营店，专注于石墨烯的大健康设备供应和美业服务，为消费者提供创新健康解决方案。 在财务实力方面，Global Hot Chain总资产达到65亿美元，年利润超过7亿美元。公司的战略目标是在2027年完成在纽约证券交易所的上市，为股东、员工、客户和社会创造持续增值，成为全球领先的综合性商业平台。',
+    'accordion_one_description' => 'Global Hot Chain作为Happy Buy Mall的母公司，为Happy Buy Mall提供强大的后盾和资源支持。Global Hot Chain总部位于美国纽约，成立于2022年，旨在为全球各行业提供高效、可靠、创新的产品及供应链解决方案。Global Hot Chain利用先进的技术和专业的团队，为客户提供定制化的服务，包括采购、仓储、运输、配送、跨境电商等。',
+    'accordion_two_description' => '实力非常强悍。自成立以来，Global Hot Chain一直致力于为全球各行业提供高效、可靠、创新的产品及供应链解决方案。通过先进的技术和专业团队，Global Hot Chain为客户提供定制化的服务，覆盖采购、仓储、运输、配送以及跨境电商等领域。在线电商领域，公司主营大健康美业产品和家庭用日化品，通过Happy Buy Mall提供各类高品质商品和服务。此外，Global Hot Chain在全球范围内拥有30,000家线下主营店，专注于石墨烯的大健康设备供应和美业服务，为消费者提供创新健康解决方案。 在财务实力方面，Global Hot Chain总资产达到65亿美元，年利润超过7亿美元。公司的战略目标是在2027年完成在纽约证券交易所的上市，为股东、员工、客户和社会创造持续增值，成为全球领先的综合性商业平台。',
     'accordion_three_description' => '目前，Happy Buy Mall的总部设在美国纽约。关于在其他地区设立总部的计划，公司正在考虑在马来西亚开设亚太区总部，以满足该地区的业务发展需求。',
     'strategic_partner' => '战略合作伙伴',
     'brand_special' => '品牌特惠',
@@ -68,7 +68,7 @@ return [
     'ghc_partners' => "GHC集团合作伙伴和服务客户",
     'faq' => '常见问题',
     'faq_1' => 'Happy Buy Mall和Global Hot Chain是什么关系？',
-    'faq_description_1' => 'Global Hot Chain作为Happy Buy Mall的母公司，为Happy Buy Mall提供强大的后盾和资源支持。Global Hot Chain总部位于美国纽约，成立于2017年，旨在为全球各行业提供高效、可靠、创新的产品及供应链解决方案。Global Hot Chain利用先进的技术和专业的团队，为客户提供定制化的服务，包括采购、仓储、运输、配送、跨境电商等。',
+    'faq_description_1' => 'Global Hot Chain作为Happy Buy Mall的母公司，为Happy Buy Mall提供强大的后盾和资源支持。Global Hot Chain总部位于美国纽约，成立于2022年，旨在为全球各行业提供高效、可靠、创新的产品及供应链解决方案。Global Hot Chain利用先进的技术和专业的团队，为客户提供定制化的服务，包括采购、仓储、运输、配送、跨境电商等。',
     'faq_2' => 'Happy Buy Mall母公司实力如何？',
     'faq_description_2' => '实力非常强悍。自成立以来，Global Hot Chain一直致力于为全球各行业提供高效、可靠、创新的产品及供应链解决方案。通过先进的技术和专业团队，Global Hot Chain为客户提供定制化的服务，覆盖采购、仓储、运输、配送以及跨境电商等领域。在线电商领域，公司主营大健康美业产品和家庭用日化品，通过Happy Buy Mall提供各类高品质商品和服务。此外，Global Hot Chain在全球范围内拥有32,000家线下主营店，专注于石墨烯的大健康设备供应和美业服务，为消费者提供创新健康解决方案。<br><br> 在财务实力方面，Global Hot Chain总资产达到65亿美元，年利润超过7亿美元。公司的战略目标是在2027年完成在纽约证券交易所的上市，为股东、员工、客户和社会创造持续增值，成为全球领先的综合性商业平台。',
     'faq_3' => 'Global Care和Happy Buy Mall的关系？',
@@ -77,11 +77,11 @@ return [
     'our_service_title' => '依托母公司Global Hot Chain <br>强大的全球供应链体系 <br>我们确保每一件商品都 <br>经过严格筛选。',
     'our_service_subtitle' => '我们始终坚持为您挑选最好的。',
     'offline_physical_store' => '线下实体体验店',
-    'offline_physical_store_description' => 'GHC集团在全球范围内拥有60,000+实体门店，店内设有体验区，可以让消费者可以亲身试用产品，感受其性能和质量。实体店铺还承担着品牌宣传和客户服务的角色，通过举办活动和提供专业咨询，增强与消费者的互动和品牌忠诚度。GHC集团的实体店铺还融入了医疗专家线上问诊服务，通过先进的视频通讯技术，消费者可以与专业医疗人员进行实时交流，获取健康咨询和个性化的医疗建议。',
+    'offline_physical_store_description' => 'GHC集团在全球范围内拥有30,000+实体门店，店内设有体验区，可以让消费者可以亲身试用产品，感受其性能和质量。实体店铺还承担着品牌宣传和客户服务的角色，通过举办活动和提供专业咨询，增强与消费者的互动和品牌忠诚度。GHC集团的实体店铺还融入了医疗专家线上问诊服务，通过先进的视频通讯技术，消费者可以与专业医疗人员进行实时交流，获取健康咨询和个性化的医疗建议。',
     'online_and_offline_integration_strategy' => '线上线下融合策略',
     'online_and_offline_integration_strategy_description' => 'GHC集团通过线上线下的无缝对接，实现了商品信息的同步更新以及顾客数据的整合分析。线上平台的便捷性和线下店铺的体验性相结合，为消费者提供了全方位的购物体验。',
     'offline_physical_store_1' => '覆盖面积',
-    'offline_physical_store_description_1' => '超37个国家和地区',
+    'offline_physical_store_description_1' => '超10个国家和地区',
     'offline_physical_store_2' => '零售伙伴',
     'offline_physical_store_description_2' => '1200+',
     'offline_physical_store_3' => '销售网络',
@@ -137,151 +137,163 @@ return [
         ],
         '3' => [
             'month' => '03月',
-            'title' => '营销启动及布局月',
+            'title' => '启动筹备月',
             'schedules' => [
                 '1' => [
-                    'date' => '3月05日',
-                    'event' => '对接政府相关部门，实现技术技能教育'
+                    'date' => '3月07日',
+                    'event' => 'HappyBuy 网站上线'
                 ],
                 '2' => [
                     'date' => '3月10日',
-                    'event' => '配合政府相关部门启动社会公益活动'
+                    'event' => 'HappyBuy APP内测'
                 ],
                 '3' => [
                     'date' => '3月25日',
-                    'event' => '对接政府相关部门， 联合举办大健康产业研讨会'
+                    'event' => '开始产品生产'
                 ],
             ]
         ],
         '4' => [
             'month' => '04月',
-            'title' => '网红全网启动月',
+            'title' => '营销启动及布局月',
             'schedules' => [
                 '1' => [
-                    'date' => '4月06日',
-                    'event' => '启动销商全球个人IP打造'
+                    'date' => '4月19日',
+                    'event' => '线上线下研讨会'
                 ],
                 '2' => [
-                    'date' => '4月15日',
-                    'event' => '全国线下店矩阵启动'
-                ],
-                '3' => [
-                    'date' => '4月26日',
-                    'event' => '启动 MCN 管理机构'
+                    'date' => '4月27日',
+                    'event' => '启动营销活动'
                 ],
             ]
         ],
         '5' => [
             'month' => '05月',
-            'title' => '全国店面开起月',
+            'title' => '营销启动及布局月',
             'schedules' => [
                 '1' => [
-                    'date' => '5月15日',
-                    'event' => '健康管理培训会'
+                    'date' => '5月05日',
+                    'event' => '对接政府相关部门，实现技术技能教育'
                 ],
                 '2' => [
-                    'date' => '5月20日',
-                    'event' => '店面营销管理培训'
+                    'date' => '5月10日',
+                    'event' => '配合政府相关部门启动社会公益活动'
+                ],
+                '3' => [
+                    'date' => '5月25日',
+                    'event' => '对接政府相关部门， 联合举办大健康产业研讨会'
                 ],
             ]
         ],
         '6' => [
             'month' => '06月',
-            'title' => '半年总结暨下半年 布局月',
+            'title' => '网红全网启动月',
             'schedules' => [
                 '1' => [
-                    'date' => '6月20日',
-                    'event' => '半年总结暨下半年布局会'
+                    'date' => '6月06日',
+                    'event' => '启动销商全球个人IP打造'
+                ],
+                '2' => [
+                    'date' => '6月15日',
+                    'event' => '全国线下店矩阵启动'
+                ],
+                '3' => [
+                    'date' => '6月26日',
+                    'event' => '启动 MCN 管理机构'
                 ],
             ]
         ],
         '7' => [
             'month' => '07月',
-            'title' => '资本对接月',
+            'title' => '全国店面开起月',
             'schedules' => [
                 '1' => [
                     'date' => '7月15日',
-                    'event' => '资本项目推介会'
+                    'event' => '健康管理培训会'
                 ],
                 '2' => [
-                    'date' => '7月30日',
-                    'event' => '全国招商大会'
+                    'date' => '7月20日',
+                    'event' => '店面营销管理培训'
                 ],
             ]
         ],
         '8' => [
             'month' => '08月',
-            'title' => '公益和慈善 循环启动月',
+            'title' => '半年总结暨下半年 布局月',
             'schedules' => [
                 '1' => [
-                    'date' => '8月09日',
-                    'event' => '全国健康慈善循环'
-                ],
-                '2' => [
-                    'date' => '8月13日',
-                    'event' => '全球矩阵广告启动'
-                ],
-                '3' => [
-                    'date' => '8月25日',
-                    'event' => '大健康产业大会'
-                ],
-                '4' => [
-                    'date' => '8月31日',
-                    'event' => '马来西亚独立日销售'
+                    'date' => '8月20日',
+                    'event' => '半年总结暨下半年布局会'
                 ],
             ]
         ],
         '9' => [
             'month' => '09月',
-            'title' => '全国各州子 公司成立月',
+            'title' => '资本对接月',
             'schedules' => [
                 '1' => [
-                    'date' => '9月25日',
-                    'event' => '在全国各州设立子公司'
+                    'date' => '9月15日',
+                    'event' => '资本项目推介会'
                 ],
                 '2' => [
                     'date' => '9月30日',
-                    'event' => '全国设立商学院分支机构'
+                    'event' => '全国招商大会'
                 ],
             ]
         ],
         '10' => [
             'month' => '10月',
-            'title' => '大健康科学 研究月',
+            'title' => '公益和慈善 循环启动月',
             'schedules' => [
                 '1' => [
-                    'date' => '10月05日',
-                    'event' => '成立健康研究院'
+                    'date' => '10月09日',
+                    'event' => '全国健康慈善循环'
                 ],
                 '2' => [
-                    'date' => '10月10日',
-                    'event' => '成立资本投资公司'
+                    'date' => '10月13日',
+                    'event' => '全球矩阵广告启动'
                 ],
                 '3' => [
                     'date' => '10月25日',
-                    'event' => '建立技工学校'
+                    'event' => '大健康产业大会'
                 ],
             ]
         ],
         '11' => [
             'month' => '11月',
-            'title' => '大健康网络 达人评选月',
+            'title' => '全国各州子公司成立 & 大健康科学研究月',
             'schedules' => [
                 '1' => [
-                    'date' => '11月18日',
-                    'event' => '全国招商大会'
+                    'date' => '11月05日',
+                    'event' => '成立健康研究院'
                 ],
                 '2' => [
-                    'date' => '11月28日',
-                    'event' => '大健康网络达人评选'
+                    'date' => '11月11日',
+                    'event' => '成立资本投资公司'
+                ],
+                '3' => [
+                    'date' => '11月25日',
+                    'event' => '在全国各州设立子公司 - 建立技工学校'
+                ],
+                '4' => [
+                    'date' => '11月30日',
+                    'event' => '全国设立商学院分支机构'
                 ],
             ]
         ],
         '12' => [
             'month' => '12月',
-            'title' => '年度总结暨 上市筹备月',
+            'title' => '大健康网络达人评选 & 年度总结暨上市筹备月',
             'schedules' => [
                 '1' => [
+                    'date' => '12月18日',
+                    'event' => '全国招商大会'
+                ],                
+                '2' => [
+                    'date' => '12月28日',
+                    'event' => '大健康网络达人评选'
+                ],
+                '3' => [
                     'date' => '12月29日',
                     'event' => '年度总结暨上市筹备大会'
                 ],
@@ -297,7 +309,7 @@ return [
     //about-us
     'investor_relation' => '投资者关系',
     'global_hot_chain' => 'Global Hot Chain',
-    'investor_relation_description_one' => '美国热链Global Hot Chain是一家总部位于美国纽约的综合性商业平台，成立于2017年，旨在为全球各行业提供高效、可靠、创新的产品及供应链解决方案。Global Hot Chain利用先进的技术和专业的团队，为客户提供定制化的服务，包括采购、仓储、运输、配送、跨境电商等。Global Hot Chain的使命是构建强大的全球供应链体系，为客户创造价值，为社会贡献力量。',
+    'investor_relation_description_one' => '美国热链Global Hot Chain是一家总部位于美国纽约的综合性商业平台，成立于2022年，旨在为全球各行业提供高效、可靠、创新的产品及供应链解决方案。Global Hot Chain利用先进的技术和专业的团队，为客户提供定制化的服务，包括采购、仓储、运输、配送、跨境电商等。Global Hot Chain的使命是构建强大的全球供应链体系，为客户创造价值，为社会贡献力量。',
     'investor_relation_description_two' => '作为一家多元化的综合性公司，Global Hot Chain在多个商业形态上取得显著成就。在线电商领域，公司主营大健康美业产品和家庭用日化品。旗下电商平台Happy Buy Mall集结了高科技电子产品、日用品、化妆品等多领域高品质商品和服务。借助全球供应链网络，Global Hot Chain确保产品质量卓越、可靠性高，满足消费者对健康和美容的高需求。公司的供应链体系为在线电商业务提供了坚实的支持和背书。 Global Hot Chain在全球8个国家拥有32,000家线下主营店。',
     'introducing_us' => '简介',
     'all_about_erya' => '关于尔雅',
