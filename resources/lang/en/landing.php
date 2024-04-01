@@ -13,8 +13,8 @@ return [
 
     //home
     'about_below_one' => 'Over 10 countries and regions',
-    'about_below_two' => 'Over 30,000 stores',
-    'about_below_three' => 'Over 3.6 billion USD',
+    'about_below_two' => 'Over 3,000 stores',
+    'about_below_three' => 'Over 1.8 billion USD',
     'about_below_one_description' => 'Global Sales Network Coverage',
     'about_below_two_description' => 'Offline Beauty Stores',
     'about_below_three_description' => 'Our Annual Turnover <br>(as of 2023)',
@@ -77,7 +77,7 @@ return [
     'our_service_title' => "With the strong global supply chain system of the parent company Global Hot Chain, we ensure that every product undergoes rigorous selection.",
     'our_service_subtitle' => "We always insist on selecting the best for you.",
     'offline_physical_store' => "Offline Experiential Stores",
-    'offline_physical_store_description' => "With 30,000+ physical stores worldwide, GHC Group provides a hands-on experience for consumers to try products, feel their performance and quality. These stores also serve as brand promotion and customer service centers, enhancing interaction and brand loyalty.",
+    'offline_physical_store_description' => "With 3,000+ physical stores worldwide, GHC Group provides a hands-on experience for consumers to try products, feel their performance and quality. These stores also serve as brand promotion and customer service centers, enhancing interaction and brand loyalty.",
     'online_and_offline_integration_strategy' => "Online-Offline Integration Strategy",
     'online_and_offline_integration_strategy_description' => "GHC Group seamlessly integrates online and offline, synchronizing product information updates and integrating customer data for a comprehensive shopping experience.",
     'offline_physical_store_1' => "Coverage:",

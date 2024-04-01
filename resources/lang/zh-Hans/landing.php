@@ -13,8 +13,8 @@ return [
 
     //home
     'about_below_one' => '超10个国家和地区',
-    'about_below_two' => '超30,000家',
-    'about_below_three' => '超 36亿 美金',
+    'about_below_two' => '超3,000家',
+    'about_below_three' => '超 18亿 美金',
     'about_below_one_description' => '全球销售网络覆盖',
     'about_below_two_description' => '线下美业门店',
     'about_below_three_description' => '我们的年营业额 <br>（截至2023年）',
@@ -77,7 +77,7 @@ return [
     'our_service_title' => '依托母公司Global Hot Chain <br>强大的全球供应链体系 <br>我们确保每一件商品都 <br>经过严格筛选。',
     'our_service_subtitle' => '我们始终坚持为您挑选最好的。',
     'offline_physical_store' => '线下实体体验店',
-    'offline_physical_store_description' => 'GHC集团在全球范围内拥有30,000+实体门店，店内设有体验区，可以让消费者可以亲身试用产品，感受其性能和质量。实体店铺还承担着品牌宣传和客户服务的角色，通过举办活动和提供专业咨询，增强与消费者的互动和品牌忠诚度。GHC集团的实体店铺还融入了医疗专家线上问诊服务，通过先进的视频通讯技术，消费者可以与专业医疗人员进行实时交流，获取健康咨询和个性化的医疗建议。',
+    'offline_physical_store_description' => 'GHC集团在全球范围内拥有3,000+实体门店，店内设有体验区，可以让消费者可以亲身试用产品，感受其性能和质量。实体店铺还承担着品牌宣传和客户服务的角色，通过举办活动和提供专业咨询，增强与消费者的互动和品牌忠诚度。GHC集团的实体店铺还融入了医疗专家线上问诊服务，通过先进的视频通讯技术，消费者可以与专业医疗人员进行实时交流，获取健康咨询和个性化的医疗建议。',
     'online_and_offline_integration_strategy' => '线上线下融合策略',
     'online_and_offline_integration_strategy_description' => 'GHC集团通过线上线下的无缝对接，实现了商品信息的同步更新以及顾客数据的整合分析。线上平台的便捷性和线下店铺的体验性相结合，为消费者提供了全方位的购物体验。',
     'offline_physical_store_1' => '覆盖面积',
