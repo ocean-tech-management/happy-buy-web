@@ -272,8 +272,8 @@
                             <div class="d-flex">
                                 <div class="mr-4 primary-gradient p-3 text-white" style="border-radius:50%;opacity:0;">{{ $plan['month'] }}</div>
                                 <div class="px-3 mb-3 ml-4">
-                                    <div class="text-primary" style="border-radius:12px;width:320px;font-weight:600;">{{ $schedule['date'] }}</div>
-                                    <div class="" style="color:#707070;border-radius:12px;max-width:320px;">{{ $schedule['event'] }}</div>
+                                    <div class="text-primary" style="border-radius:12px;width:70vw;font-weight:600;">{{ $schedule['date'] }}</div>
+                                    <div class="" style="color:#707070;border-radius:12px;width:70vw;">{{ $schedule['event'] }}</div>
                                 </div>
                             </div>
                         @endforeach
