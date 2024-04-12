@@ -13,10 +13,10 @@ return [
 
     //home
     'about_below_one' => '超10个国家和地区',
-    'about_below_two' => '超3,000家',
+    'about_below_two' => '超6,000家',
     'about_below_three' => '超 18亿 美金',
     'about_below_one_description' => '全球销售网络覆盖',
-    'about_below_two_description' => '线下美业门店',
+    'about_below_two_description' => '线下美业店',
     'about_below_three_description' => '我们的年营业额 <br>（截至2023年）',
     'about_global_care' => '关于Global Care',
     'about_global_care_description' => 'Global Care 是 Happy Buy Mall 在马来西亚的官方注册实体，它承担着为亚太地区市场提供 Happy Buy Mall 全线产品和服务的重要角色。通过 Global Care，Happy Buy Mall 得以深化其在亚太地区的市场渗透，确保为当地消费者提供定制化的购物体验和满足其特定需求。',
@@ -171,7 +171,7 @@ return [
         ],
         '5' => [
             'month' => '05月',
-            'title' => '营销启动及布局月',
+            'title' => '国家贡献对接月',
             'schedules' => [
                 '1' => [
                     'date' => '5月05日',

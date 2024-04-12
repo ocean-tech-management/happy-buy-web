@@ -13,10 +13,10 @@ return [
 
     //home
     'about_below_one' => 'Over 10 countries and regions',
-    'about_below_two' => 'Over 3,000 stores',
+    'about_below_two' => 'Over 6,000 stores',
     'about_below_three' => 'Over 1.8 billion USD',
     'about_below_one_description' => 'Global Sales Network Coverage',
-    'about_below_two_description' => 'Offline Beauty Stores',
+    'about_below_two_description' => 'Offline beauty store',
     'about_below_three_description' => 'Our Annual Turnover <br>(as of 2023)',
     'about_global_care' => 'About Global Care',
     'about_global_care_description' => "Global Care is the official registered entity of Happy Buy Mall in Malaysia. It plays a crucial role in providing the full range of Happy Buy Mall products and services to the Asia-Pacific market. Through Global Care, Happy Buy Mall deepens its market penetration in the Asia-Pacific region, ensuring customized shopping experiences and meeting specific needs for local consumers.",
@@ -171,7 +171,7 @@ return [
         ],
         '5' => [
             'month' => 'May',
-            'title' => 'Marketing launch and layout month',
+            'title' => 'National Contribution Matching Month',
             'schedules' => [
                 '1' => [
                     'date' => 'May 5th',
