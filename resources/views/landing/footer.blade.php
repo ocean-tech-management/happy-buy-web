@@ -26,15 +26,22 @@
                     </ul>
                 </div> --}}
                 <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
+                    <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.product') }}</span>
+                    <ul>
+                        <li><a href="{{ route('landing.products-and-services') }}">{{ __('landing.product_tab_health') }}</a></li>
+                        <li><a href="{{ route('landing.products-and-services') }}">{{ __('landing.product_tab_beauty') }}</a></li>
+                        <li><a href="{{ route('landing.products-and-services') }}">{{ __('landing.product_tab_personal_care') }}</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
                     <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.site_map') }}</span>
                     <ul>
                         <li><a href="{{ route('landing.home') }}">{{ __('landing.home') }}</a></li>
-                        <li><a href="{{ route('landing.products-and-services') }}">{{ __('landing.our_service') }}</a></li>
-                        <li><a href="{{ route('landing.investment-relation') }}">{{ __('landing.investment_relation') }}</a></li>
+                        <li><a href="{{ route('landing.reward') }}">{{ __('landing.reward') }}</a></li>
                         <li><a href="{{ route('landing.faq') }}">{{ __('landing.faq') }}</a></li>
                     </ul>
                 </div>
-                {{-- <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
+                <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
                     <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.social_media') }}</span>
                     <ul>
                         <li><a href="#">X (Twitter)</a></li>
@@ -42,7 +49,7 @@
                         <li><a href="#">Youtube</a></li>
                         <li><a href="#">Linktree</a></li>
                     </ul>
-                </div> --}}
+                </div>
                 <div class="col-12 col-lg-4 col-sm-6 xs-margin-25px-bottom">
                 </div>
             </div>

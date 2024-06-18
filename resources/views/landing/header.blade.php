@@ -19,9 +19,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav alt-font">
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a href="{{ route('landing.home') }}" class="nav-link">{{ __('landing.home') }}</a>
-                        </li>
+                        </li> --}}
                         {{-- <li class="nav-item">
                             <a href="{{ route('landing.product') }}" class="nav-link">{{ __('landing.our_product') }}</a>
                         </li>
@@ -34,19 +34,24 @@
                         <li class="nav-item">
                             <a href="{{ route('landing.productQRCheck') }}" class="nav-link">{{ __('landing.product_qr_check') }}</a>
                         </li> --}}
-                        {{-- <li class="nav-item">
+                        <li class="nav-item">
                             <a href="{{ route('landing.aboutUs') }}" class="nav-link">{{ __('landing.about_us') }}</a>
-                        </li> --}}
+                        </li>
                         <li class="nav-item">
                             <a href="{{ route('landing.products-and-services') }}" class="nav-link">{{ __('landing.our_service') }}</a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a href="{{ route('landing.investment-relation') }}" class="nav-link">{{ __('landing.investment_relation') }}</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('landing.faq') }}" class="nav-link">{{ __('landing.faq') }}</a>
+                        </li> --}}
+                        <li class="nav-item">
+                            <a href="{{ route('landing.reward') }}" class="nav-link">{{ __('landing.reward') }}</a>
                         </li>
-
+                        <li class="nav-item">
+                            <a href="{{ route('landing.contactUs') }}" class="nav-link">{{ __('landing.contact_us') }}</a>
+                        </li>
                     </ul>
                 </div>
             </div>

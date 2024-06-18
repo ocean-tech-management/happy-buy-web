@@ -364,6 +364,11 @@ h6 {
     line-height: 30px;
 }
 
+.text-extra-large3 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
 .title-extra-small2 {
     font-size: 28px;
     line-height: 32px;
@@ -394,6 +399,11 @@ h6 {
     line-height: 80px;
 }
 
+.title-large-4 {
+    font-size: 40px;
+    line-height: 90px;
+}
+
 .title-extra-large {
     font-size: 130px;
     line-height: 120px;
@@ -422,6 +432,10 @@ h6 {
 .parallax-title {
     padding: 16px 35px;
     display: inline-block;
+}
+
+.rounded-input {
+    border-radius: 15px; /* Adjust the value to your preference */
 }
 
 .btn-link.text-white,

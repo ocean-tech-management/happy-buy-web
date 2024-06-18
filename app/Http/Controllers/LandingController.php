@@ -143,6 +143,15 @@ class LandingController extends Controller
         return view('landing.contact-us');
     }
 
+    public function reward()
+    {
+        return view('landing.reward');
+    }
+    public function selectedProductDetails()
+    {
+        return view('landing.selected-productDetails');
+    }
+
 //    public function contactUsAction(Request $request){
 //
 //
