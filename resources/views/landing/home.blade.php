@@ -5,38 +5,95 @@
     <section class="top-banner">
         <div class="container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-lg-8 col-md-8">
-                    <div class="top-banner-content-wrapper">
-                        <div class="top-banner-textWrapper row line-height-20px z-index-9 text-white">
-                            {{ __('landing.happy_buy_at_happyBuy_mobile') }}
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="col-lg-8 col-md-8">
+                                        <div class="top-banner-content-wrapper">
+                                            <div class="top-banner-textWrapper row line-height-20px z-index-9 text-white">
+                                                {{ __('landing.happy_buy_at_happyBuy_mobile') }}
+                                            </div>
+                                            <div class="top-banner-iconWrapper row line-height-20px z-index-9 text-white">
+                                                <div class="icon-group">
+                                                    <div><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                                                    <div>{{ __('landing.buy') }}</div>
+                                                    <div>{{ __('landing.a_product') }}</div>
+                                                </div>
+                                                <div class="icon-group">
+                                                    <div><i class="fa fa-share-alt" aria-hidden="true"></i></div>
+                                                    <div>{{ __('landing.share') }}</div>
+                                                    <div>{{ __('landing.user_experience') }}</div>
+                                                </div>
+                                                <div class="icon-group">
+                                                    <div><i class="fa fa-gift" aria-hidden="true"></i></div>
+                                                    <div>{{ __('landing.earn') }}</div>
+                                                    <div>{{ __('landing.reward_105') }}</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 xs-margin-20px-bottom">
+                                        <img src="landing/images/this_is_a_phone.png" alt="Phone Image"
+                                            class="phone-image" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="col-lg-8 col-md-8">
+                                        <div class="top-banner-content-wrapper">
+                                            <div class="top-banner-textWrapper row line-height-20px z-index-9 text-white">
+                                                {{ __('landing.happy_buy_at_happyBuy_mobile') }}
+                                            </div>
+                                            <div class="top-banner-iconWrapper row line-height-20px z-index-9 text-white">
+                                                <div class="icon-group">
+                                                    <div><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                                                    <div>{{ __('landing.buy') }}</div>
+                                                    <div>{{ __('landing.a_product') }}</div>
+                                                </div>
+                                                <div class="icon-group">
+                                                    <div><i class="fa fa-share-alt" aria-hidden="true"></i></div>
+                                                    <div>{{ __('landing.share') }}</div>
+                                                    <div>{{ __('landing.user_experience') }}</div>
+                                                </div>
+                                                <div class="icon-group">
+                                                    <div><i class="fa fa-gift" aria-hidden="true"></i></div>
+                                                    <div>{{ __('landing.earn') }}</div>
+                                                    <div>{{ __('landing.reward_105') }}</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 xs-margin-20px-bottom">
+                                        <img src="landing/images/this_is_a_phone.png" alt="Phone Image"
+                                            class="phone-image" />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="top-banner-iconWrapper row line-height-20px z-index-9 text-white">
-                            <div class="icon-group">
-                                <div><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
-                                <div>{{ __('landing.buy') }}</div>
-                                <div>{{ __('landing.a_product') }}</div>
-                            </div>
-                            <div class="icon-group">
-                                <div><i class="fa fa-share-alt" aria-hidden="true"></i></div>
-                                <div>{{ __('landing.share') }}</div>
-                                <div>{{ __('landing.user_experience') }}</div>
-                            </div>
-                            <div class="icon-group">
-                                <div><i class="fa fa-gift" aria-hidden="true"></i></div>
-                                <div>{{ __('landing.earn') }}</div>
-                                <div>{{ __('landing.reward_105') }}</div>
-                            </div>
-                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                        </ol>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true">
+                                <i class="fas fa-chevron-left"></i>
+                            </span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true">
+                                <i class="fas fa-chevron-right"></i>
+                            </span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-4 xs-margin-20px-bottom">
-                    <img src="landing/images/this_is_a_phone.png" alt="Phone Image" class="phone-image" />
                 </div>
             </div>
         </div>
     </section>
-
-
 
     <section class="overlap-height second-banner pt-5">
         <div class="container">
@@ -345,6 +402,12 @@
             });
             fetchBanners();
             loadInitialProducts(currentCategory);
+        });
+
+        $(document).ready(function() {
+            $('#carouselExampleControls').carousel({
+                interval: 4000
+            });
         });
     </script>
 
@@ -678,15 +741,6 @@
                 align-items: center;
                 text-align: center;
             }
-
-            /* .top-banner-iconWrapper {
-                grid-template-columns: repeat(3, 1fr);
-                gap: 15px;
-            }
-
-            .top-banner-iconWrapper>div {
-                margin: 0 5px;
-            } */
         }
 
         @media (max-width: 768px) {
@@ -878,21 +932,88 @@
                 text-align: center;
             }
 
-            /* .top-banner-iconWrapper {
-                grid-template-columns: 1fr;
-                gap: 10px;
-            }
-
-            .top-banner-iconWrapper>div {
-                margin: 10px 0;
-            } */
-
             .top-banner-textWrapper {
                 font-size: 1.5rem;
             }
 
             .top-banner-iconWrapper .fa {
                 font-size: 2rem;
+            }
+        }
+
+        /* corousel */
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-image: none;
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            font-size: 30px;
+            line-height: 1;
+            color: #fff;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            cursor: pointer;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 50px;
+            height: 50px;
+            background-color: transparent;
+            /* border-radius: 50%; */
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .carousel-control-prev {
+            left: 20px;
+        }
+
+        .carousel-control-next {
+            right: 20px;
+        }
+
+        .carousel-control-prev:hover,
+        .carousel-control-next:hover {
+            background-color: transparent;
+        }
+
+        .carousel-control-prev:hover .carousel-control-prev-icon,
+        .carousel-control-next:hover .carousel-control-next-icon {
+            color: #333;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .carousel-control-prev,
+            .carousel-control-next {
+                width: 40px;
+                height: 40px;
+            }
+
+            .carousel-control-prev-icon,
+            .carousel-control-next-icon {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .carousel-control-prev,
+            .carousel-control-next {
+                width: 30px;
+                height: 30px;
+            }
+
+            .carousel-control-prev-icon,
+            .carousel-control-next-icon {
+                font-size: 18px;
             }
         }
     </style>
