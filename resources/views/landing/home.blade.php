@@ -3,7 +3,7 @@
 @section('content')
     <!-- start banner section -->
     <section class="top-banner">
-        <div class="container" style="width: 70%">
+        <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-8 col-md-8">
                     <div class="top-banner-content-wrapper">
@@ -484,6 +484,8 @@
             flex: 1 1 calc(33.333% - 20px);
             margin: 10px;
             text-align: center;
+            padding: 0.8rem;
+            border-radius: 10px;
         }
 
         .product-item img {
@@ -677,14 +679,14 @@
                 text-align: center;
             }
 
-            .top-banner-iconWrapper {
+            /* .top-banner-iconWrapper {
                 grid-template-columns: repeat(3, 1fr);
                 gap: 15px;
             }
 
             .top-banner-iconWrapper>div {
                 margin: 0 5px;
-            }
+            } */
         }
 
         @media (max-width: 768px) {
@@ -876,22 +878,21 @@
                 text-align: center;
             }
 
-            .top-banner-iconWrapper {
+            /* .top-banner-iconWrapper {
                 grid-template-columns: 1fr;
-                gap: 20px;
-
+                gap: 10px;
             }
 
             .top-banner-iconWrapper>div {
                 margin: 10px 0;
-            }
+            } */
 
             .top-banner-textWrapper {
                 font-size: 1.5rem;
             }
 
             .top-banner-iconWrapper .fa {
-                font-size: 1.8rem;
+                font-size: 2rem;
             }
         }
     </style>
