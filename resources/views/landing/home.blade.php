@@ -450,7 +450,7 @@
         .top-banner {
             background-image: url('{{ __('landing/images/adomas-aleno-gQuiE815FMc-unsplash.png') }}');
             background-size: cover;
-            height: 80vh;
+            height: 90vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
