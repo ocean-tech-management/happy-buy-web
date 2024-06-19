@@ -206,7 +206,7 @@
                 </div>
                 <div class="col-12 lg-padding-30px-lr md-padding-15px-lr sm-margin-40px-bottom">
                     <form class="row contact-form">
-                        <div class="col-12 col-xl-6">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="contact-us-section p-3">
                                 <input class="small-input bg-white margin-30px-bottom required rounded-input"
                                     type="text" name="name" placeholder="{{ __('landing.enter_your_name') }}">
@@ -224,7 +224,7 @@
                             </div>
                         </div>
 
-                        <div class="col-12 col-xl-6">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="p-3">
                                 <div class="map-style-3 h-200px xs-h-200px">
                                     <iframe class="w-100 h-100"
