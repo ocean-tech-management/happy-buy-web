@@ -3,22 +3,39 @@
 @section('content')
     <!-- start banner section -->
     <section class="top-banner">
-        <div class="container">
+        <div class="container" style="width: 70%">
             <div class="row align-items-center justify-content-center">
-                <div class="col-10 col-lg-5 col-sm-7 text-center text-lg-start">
-                    <div class="position-relative">
-                        <span
-                            class="text-extra-large line-height-20px z-index-9 position-relative d-inline-block letter-spacing-4px text-white">
-                            {{ __('landing.self_love_and_confidence') }}
-                        </span>
+                <div class="col-lg-8 col-md-8">
+                    <div class="top-banner-content-wrapper">
+                        <div class="top-banner-textWrapper row line-height-20px z-index-9 text-white">
+                            {{ __('landing.happy_buy_at_happyBuy_mobile') }}
+                        </div>
+                        <div class="top-banner-iconWrapper row line-height-20px z-index-9 text-white">
+                            <div class="icon-group">
+                                <div><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                                <div>{{ __('landing.buy') }}</div>
+                                <div>{{ __('landing.a_product') }}</div>
+                            </div>
+                            <div class="icon-group">
+                                <div><i class="fa fa-share-alt" aria-hidden="true"></i></div>
+                                <div>{{ __('landing.share') }}</div>
+                                <div>{{ __('landing.user_experience') }}</div>
+                            </div>
+                            <div class="icon-group">
+                                <div><i class="fa fa-gift" aria-hidden="true"></i></div>
+                                <div>{{ __('landing.earn') }}</div>
+                                <div>{{ __('landing.reward_105') }}</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-9 col-lg-5 col-sm-5 text-center xs-margin-30px-bottom">
+                <div class="col-lg-4 col-md-4 xs-margin-20px-bottom">
                     <img src="landing/images/this_is_a_phone.png" alt="Phone Image" class="phone-image" />
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="overlap-height second-banner pt-5">
@@ -134,10 +151,10 @@
                     <form class="row contact-form">
                         <div class="col-12 col-xl-6">
                             <div class="contact-us-section p-3">
-                                <input class="small-input bg-white margin-30px-bottom required rounded-input" type="text"
-                                    name="name" placeholder="{{ __('landing.enter_your_name') }}">
-                                <input class="small-input bg-white margin-30px-bottom required rounded-input" type="text"
-                                    name="contact" placeholder="{{ __('landing.enter_your_contact') }}">
+                                <input class="small-input bg-white margin-30px-bottom required rounded-input"
+                                    type="text" name="name" placeholder="{{ __('landing.enter_your_name') }}">
+                                <input class="small-input bg-white margin-30px-bottom required rounded-input"
+                                    type="text" name="contact" placeholder="{{ __('landing.enter_your_contact') }}">
                                 <input class="small-input bg-white margin-30px-bottom required rounded-input"
                                     type="email" name="email"
                                     placeholder="{{ __('landing.enter_your_email_address') }}">
@@ -215,7 +232,7 @@
                         return response.json();
                     })
                     .then(data => {
-                        console.log('Banners data:', data);
+                        // console.log('Banners data:', data);
                         const bannerData = data.data.banner;
 
                         const bannerSection = document.getElementById('bannerSection');
@@ -255,7 +272,7 @@
 
             // Function to display products in the product grid
             function displayProducts(products) {
-                console.log('my product', products)
+                // console.log('my product', products)
                 const productGrid = document.getElementById('productGrid');
 
                 if (currentIndex === 0) {
@@ -285,12 +302,8 @@
                         <div class="card h-100 product-item">
                             <a href="{{ route('landing.selectedProductDetails', ['goods_sn' => '${product.goods_sn}']) }}">
                                 <img src="${product.main_image}" class="card-img-top" alt="${product.title}">
-                                <div>
-                                    <span class="card-title">${langTitle}</span>
-                                </div>
-                                <div>
-                                    <span class="card-title">${'RM' + product.market_price_min}</span>
-                                </div>
+                                    <div class="card-title">${langTitle}</div>
+                                    <div class="card-title">${'RM' + product.market_price_min}</div>
                             </a>
                         </div>
                     `;
@@ -335,15 +348,8 @@
         });
     </script>
 
-    <style>
-        /* General styles */
-        /* body {
-                                                                        font-family: 'Arial', sans-serif;
-                                                                        margin: 0;
-                                                                        padding: 0;
-                                                                        box-sizing: border-box;
-                                                                    } */
 
+    <style>
         /* Utility classes */
         .text-center {
             text-align: center;
@@ -389,11 +395,11 @@
         }
 
         .phone-image {
-            max-width: 30%;
+            max-width: 70%;
             height: auto;
             display: block;
             margin: 0 auto;
-            max-height: 80%;
+            max-height: 100%;
         }
 
         .text-container {
@@ -489,7 +495,6 @@
 
         .card-title {
             font-size: 1rem;
-            margin-bottom: 15px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -576,6 +581,46 @@
             background-color: #e65c00;
         }
 
+        .top-banner-content-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .top-banner-iconWrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .top-banner-iconWrapper>div {
+            text-align: center;
+            margin: 0 10px;
+        }
+
+        .top-banner-iconWrapper .fa {
+            font-size: 4rem;
+        }
+
+        .top-banner-textWrapper {
+            /* width: 70%; */
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .icon-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .icon-group div {
+            margin: 5px 0;
+        }
+
         /* Responsive typography */
         @media (max-width: 1200px) {
             .title-small {
@@ -609,6 +654,39 @@
             }
         }
 
+        @media (max-width: 992px) {
+            .second-banner {
+                padding-top: 10%;
+                padding-bottom: 10%;
+            }
+
+            .aboutUs2 {
+                font-size: 20px;
+            }
+
+            .text-container {
+                text-align: start;
+                /* align-content: center; */
+                font-size: 1.2rem;
+                font-weight: 300;
+                line-height: 1.5;
+            }
+
+            .top-banner-content-wrapper {
+                align-items: center;
+                text-align: center;
+            }
+
+            .top-banner-iconWrapper {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 15px;
+            }
+
+            .top-banner-iconWrapper>div {
+                margin: 0 5px;
+            }
+        }
+
         @media (max-width: 768px) {
             .top-banner {
                 height: 50vh;
@@ -619,7 +697,7 @@
                 height: auto;
                 display: block;
                 margin: 0 auto;
-                max-height: 50%;
+                max-height: 30%;
             }
 
             .title-small {
@@ -730,8 +808,8 @@
             }
 
             .phone-image {
-                padding-top: 1.5rem;
-                max-width: 40%;
+                padding-top: 1.1rem;
+                max-width: 30%;
                 height: auto;
                 display: block;
                 margin: 0 auto;
@@ -792,31 +870,28 @@
             .home_about_us_desc_line3 {
                 font-size: 16px;
             }
-        }
 
-        @media (max-width: 992px) {
-            .second-banner {
-                padding-top: 10%;
-                padding-bottom: 10%;
+            .top-banner-content-wrapper {
+                align-items: center;
+                text-align: center;
             }
 
-            .aboutUs2 {
-                font-size: 20px;
+            .top-banner-iconWrapper {
+                grid-template-columns: 1fr;
+                gap: 20px;
+
             }
 
-            .text-container {
-                /* height: 200px; */
-                text-align: start;
-                /* align-content: center; */
-                font-size: 1.2rem;
-                font-weight: 300;
-                line-height: 1.5;
+            .top-banner-iconWrapper>div {
+                margin: 10px 0;
             }
 
-            .home-abt-desc {
-                /* padding-right: 15px; */
-                /* text-align: start; */
-                /* font-size: 1.1rem; */
+            .top-banner-textWrapper {
+                font-size: 1.5rem;
+            }
+
+            .top-banner-iconWrapper .fa {
+                font-size: 1.8rem;
             }
         }
     </style>

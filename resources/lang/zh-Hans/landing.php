@@ -135,6 +135,13 @@ return [
     'home_about_us_desc_line3' => '在 HAPPYBUY 移动应用上开心购物。',
     'happybuy_reward_pathway_desc_line1' => 'HappyBuy 为会员提供广泛的奖励。',
     'happybuy_reward_pathway_desc_line2' => '您甚至可以通过购买产品来赚取独家返现奖励。',
+    'happy_buy_at_happyBuy_mobile' => 'Happy buy at HappyBuy mobile app',
+    'buy' => '购买',
+    'share' => '分享',
+    'earn' => '赚取',
+    'a_product' => '产品',
+    'user_experience' => '用户体验',
+    'reward_105' => '105% 分红',
     'plans' => [
         /*
         '1' => [

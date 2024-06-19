@@ -135,6 +135,13 @@ return [
     'home_about_us_desc_line3' => 'Happy Buy at HAPPYBUY mobile app.',
     'happybuy_reward_pathway_desc_line1' => 'HappyBuy offers a wide range of rewards for members.',
     'happybuy_reward_pathway_desc_line2' => 'You can even earn exclusive cashback rewards <br> by just purchasing products.',
+    'happy_buy_at_happyBuy_mobile' => 'Happy buy at HappyBuy mobile app',
+    'buy' => 'BUY',
+    'share' => 'SHARE',
+    'earn' => 'EARN',
+    'a_product' => 'a product',
+    'user_experience' => 'user experience',
+    'reward_105' => '105% Rewards',
     'plans' => [
         /*
         '1' => [
