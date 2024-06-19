@@ -26,9 +26,7 @@
                         <div class="tab" data-category="beauty">{!! __('landing.product_tab_beauty') !!}</div>
                         <div class="tab" data-category="personal-care">{!! __('landing.product_tab_personal_care') !!}</div>
                     </div>
-                    <div class="row" id="productGrid">
-                        <!-- Products will be displayed here -->
-                    </div>
+                    <div class="row" id="productGrid"></div>
                     <div class="py-3 text-center">
                         <button class="view-more-btn" id="viewMoreBtn">{!! __('landing.view_more') !!}</button>
                     </div>
@@ -64,13 +62,29 @@
 
                 products.forEach(product => {
                     const productItem = document.createElement('div');
-                    productItem.classList.add('col-12', 'col-sm-6', 'col-md-4', 'mb-4');
+                    productItem.classList.add('col-6', 'col-sm-6', 'col-md-4', 'col-lg-3', 'mb-4');
+                    let langTitle = '';
+                    let locale = `{{ app()->getLocale() }}`;
+                    try {
+                        const titleObj = JSON.parse(product.title);
+                        langTitle = titleObj.en;
+                        switch (locale) {
+                            case 'en':
+                                langTitle = titleObj.en;
+                                break;
+                            case 'zh-Hans':
+                                langTitle = titleObj.zh;
+                                break;
+                        }
+                    } catch (e) {
+                        console.error('Failed to parse product title:', e);
+                    }
                     productItem.innerHTML = `
                         <div class="card h-100 product-item">
                             <a href="{{ route('landing.selectedProductDetails', ['goods_sn' => '${product.goods_sn}']) }}">
                                 <img src="${product.main_image}" class="card-img-top" alt="${product.title}">
                                 <div class="card-body">
-                                    <h5 class="card-title">${product.title}</h5>
+                                    <h5 class="card-title">${langTitle}</h5>
                                 </div>
                             </a>
                         </div>
@@ -108,7 +122,6 @@
     </script>
 
     <style>
-
         /* Banner section styles */
         .top-banner {
             background-image: url('{{ __('landing/images/O4YIHQ0.png') }}');
@@ -117,9 +130,24 @@
             color: white;
         }
 
+        .card-title {
+            font-size: 1rem;
+            margin-bottom: 15px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
         .title-small {
             font-size: 2.5rem;
             line-height: 1.5;
+        }
+
+        .product-item img {
+            max-height: 250px;
+            object-fit: cover;
+            width: 100%;
+            height: auto;
         }
 
         /* Mid-banner section styles */
@@ -157,12 +185,36 @@
             .top-banner {
                 height: 20vh;
             }
+
+            .card-title {
+                font-size: 0.9rem;
+            }
+
             .title-small {
                 font-size: 2rem;
             }
 
             .card-title-phase {
                 font-size: 1.5rem;
+            }
+
+            .product-item img {
+                max-height: 180px;
+            }
+
+            .tabs {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .tab {
+                flex: 1 1 auto;
+                text-align: center;
+            }
+
+            .view-more-btn {
+                margin: 20px auto;
+                display: block;
             }
         }
 
@@ -173,6 +225,10 @@
 
             .title-small {
                 font-size: 2rem;
+            }
+
+            .product-item img {
+                max-height: 180px;
             }
         }
 
@@ -205,11 +261,16 @@
             margin-bottom: 20px;
         }
 
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
         .tab {
             margin: 0 10px;
-            padding: 10px 10px;
+            padding: 10px;
             cursor: pointer;
-            /* border: 1px solid #ddd; */
             border-radius: 5px;
             background: transparent;
             color: #ff6600;
@@ -221,11 +282,6 @@
         }
 
         /* Product item styling */
-        .product-item img {
-            max-height: 200px;
-            object-fit: cover;
-        }
-
         .view-more-btn {
             background-color: #ff6600;
             color: white;

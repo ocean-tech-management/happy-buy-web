@@ -1,372 +1,53 @@
 @extends('landing.app')
 
-@section('css')
-    <style>
-        .top-banner {
-            background-image: url('{{ __('landing/images/adomas-aleno-gQuiE815FMc-unsplash.png') }}');
-            height: 950px;
-            background-position: right center;
-            background-size: cover;
-            position: relative
-        }
-
-        /* .top-banner::after {
-                                                                                                                        content: "";
-                                                                                                                        position: absolute;
-                                                                                                                        width: 100%;
-                                                                                                                        height: 100%;
-                                                                                                                        background: rgb(0, 0, 0);
-                                                                                                                        background: linear-gradient(
-                                                                                                                            180deg,
-                                                                                                                            rgba(0, 0, 0, 0.3255427170868347) 0%,
-                                                                                                                            rgba(0, 0, 0, 0.75) 100%
-                                                                                                                        );
-                                                                                                                        top: 0;
-                                                                                                                        left: 0;
-                                                                                                                        z-index: 0;
-                                                                                                                    } */
-
-        .second-banner {
-            background-image: url('{{ __('landing/images/Mesa de trabajo 1.png') }}');
-            height: 500px;
-            background-size: cover;
-            position: relative;
-        }
-
-        .text-primary {
-            color: #ee9134 !important;
-        }
-
-        .one-line {
-            white-space: nowrap;
-            overflow: hidden;
-            display: block;
-            text-overflow: ellipsis;
-        }
-
-        @media (max-width: 1200px) {
-            .top-banner {
-                height: 600px;
-            }
-
-        }
-
-        @media(max-width:762px) {
-            /* .overlay::after {
-                                                                                                                            content: "";
-                                                                                                                            position: absolute;
-                                                                                                                            width: 100%;
-                                                                                                                            height: 100%;
-                                                                                                                            background: rgb(0, 0, 0);
-                                                                                                                            background: linear-gradient(
-                                                                                                                                180deg,
-                                                                                                                                rgba(0, 0, 0, 0.3255427170868347) 0%,
-                                                                                                                                rgba(0, 0, 0, 0.75) 100%
-                                                                                                                            );
-                                                                                                                            top: 0;
-                                                                                                                            left: 0;
-                                                                                                                            z-index: 0;
-                                                                                                                        } */
-
-            .overlay {
-                background-position: top right;
-            }
-        }
-
-        .custom-text-1 {
-            color: #ee9134;
-        }
-
-        .custom-text-2 {
-            color: #444;
-        }
-
-        @media (max-width: 600px) {
-            .top-banner {
-                height: 400px;
-            }
-
-            .custom-text-1 {
-                color: #000;
-            }
-
-            .custom-text-2 {
-                color: #000;
-            }
-
-            .custom-background-position {
-                background-position: top center !important;
-            }
-
-            .custom-line::before {
-                left: 10% !important;
-            }
-        }
-
-        .custom-line {
-            position: relative;
-        }
-
-        .custom-line::before {
-            content: '';
-            width: 1px;
-            height: 90%;
-            position: absolute;
-            background: #aaa;
-            left: 11.5%;
-            top: 5%;
-        }
-
-        .primary-gradient {
-            background: rgb(243, 112, 33);
-            background: linear-gradient(180deg, rgba(243, 112, 33, 1) 0%, rgba(252, 159, 85, 1) 86%);
-        }
-
-        .custom-title {
-            white-space: nowrap;
-            overflow: hidden;
-            display: block;
-            text-overflow: ellipsis;
-        }
-
-        .aboutUs1 {
-            width: 100%;
-            display: flex;
-            justify-content: flex-end;
-            position: relative;
-        }
-
-        .img-container {
-            position: relative;
-            z-index: 2;
-            margin-right: -20px;
-        }
-
-        .img-container2 {
-            position: relative;
-        }
-
-        .text-container {
-            background: transparent linear-gradient(360deg, #FE9900 0%, #F26711 100%) 0% 0% no-repeat padding-box;
-            display: flex;
-            width: 300px;
-            height: 280px;
-            color: white;
-            padding: 30px;
-            text-align: start;
-            font-size: 30px;
-            z-index: 1;
-            position: relative;
-            justify-content: center;
-            align-items: center;
-            line-height: 1.5
-        }
-
-        .custom-banner-wrapper {
-            position: relative;
-            text-align: center;
-            overflow: hidden;
-            display: inline-block;
-        }
-
-        .custom-banner {
-            max-width: 100%;
-            width: 700px;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-
-        .custom-banner::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to bottom, rgba(254, 153, 0, 0) 0%, rgba(242, 103, 17, 1) 100%);
-            pointer-events: none;
-        }
-
-
-        .product-grid {
-            display: grid;
-            gap: 20px;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            margin-top: 20px;
-        }
-
-        .product-item {
-            background: #fff;
-            border-radius: 8px;
-            padding: 10px;
-            text-align: center;
-        }
-
-        .product-item img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-
-        .product-name {
-            font-size: 16px;
-            margin: 10px 0;
-        }
-
-        .product-price {
-            color: #ee9134;
-            font-size: 14px;
-        }
-
-        .view-more-btn {
-            display: block;
-            margin: 20px auto;
-            padding: 10px 20px;
-            background-color: white;
-            color: #ee9134;
-            border: none;
-            border-radius: 999px;
-            /* Makes the button pill-shaped */
-            cursor: pointer;
-            text-transform: uppercase;
-            /* Makes the text uppercase */
-            font-weight: bold;
-            letter-spacing: 1px;
-            /* Adds some spacing between letters */
-        }
-
-        /* Media Queries for responsiveness */
-        @media (max-width: 1200px) {
-            .product-grid {
-                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            }
-        }
-
-        @media (max-width: 992px) {
-            .product-grid {
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            }
-        }
-
-        @media (max-width: 768px) {
-            .product-grid {
-                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-            }
-        }
-
-        @media (max-width: 576px) {
-            .product-grid {
-                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-            }
-        }
-
-        .tabs {
-            display: flex;
-            justify-content: center;
-            gap: 50px;
-            margin-bottom: 20px;
-        }
-
-        .tab {
-            padding: 10px 20px;
-            cursor: pointer;
-            background-color: transparent;
-            color: white;
-            position: relative;
-        }
-
-        .tab::after {
-            content: '';
-            display: block;
-            height: 2px;
-            width: 0;
-            background: white;
-            position: absolute;
-            bottom: -5px;
-            left: 50%;
-            transform: translateX(-50%);
-            transition: width 0.3s;
-        }
-
-        .tab.active::after {
-            width: 100%;
-        }
-
-        .submit-button {
-            background: linear-gradient(0deg, rgba(242, 103, 17, 1) 17%, rgba(254, 153, 0, 1) 59%);
-            color: white;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            padding: 10px 30px;
-            border: none;
-            border-radius: 999px;
-            cursor: pointer;
-            font-size: 14px;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .submit-button i {
-            margin-left: 5px;
-        }
-
-        /* Adjust hover and focus styles as needed */
-        .submit-button:hover,
-        .submit-button:focus {
-            background: linear-gradient(0deg, rgba(242, 103, 17, 1) 17%, rgba(254, 153, 0, 1) 59%);
-            outline: none;
-        }
-    </style>
-@endsection
 @section('content')
     <!-- start banner section -->
-    <section class="d-flex flex-column justify-content-end justify-content-lg-center top-banner">
-        <div class="container" style="max-width: 1400px ">
+    <section class="top-banner">
+        <div class="container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-10 col-lg-5 col-sm-7">
-                    <div class="position-relative ">
+                <div class="col-10 col-lg-5 col-sm-7 text-center text-lg-start">
+                    <div class="position-relative">
                         <span
-                            class=" text-extra-large alt-font line-height-20px z-index-9 position-relative d-inline-block letter-spacing-4px text-white">{{ __('landing.self_love_and_confidence') }}</span>
-                    </div>
-                    <div class="position-relative ">
-                        <span
-                            class="@if (app()->getLocale() == 'en') title-small pr-md-5 @else title-large @endif alt-font font-weight-300 z-index-9 position-relative d-inline-block letter-spacing-4px text-white">{{ __('landing.starts_from') }}<br>{{ __('landing.the_innerself') }}</span>
+                            class="text-extra-large line-height-20px z-index-9 position-relative d-inline-block letter-spacing-4px text-white">
+                            {{ __('landing.self_love_and_confidence') }}
+                        </span>
                     </div>
                 </div>
                 <div class="col-9 col-lg-5 col-sm-5 text-center xs-margin-30px-bottom">
-                    <img src="landing/images/Group 200.png" alt="" />
+                    <img src="landing/images/this_is_a_phone.png" alt="Phone Image" class="phone-image" />
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="overlap-height wow animate__fadeIn second-banner pt-5">
-        <div class="container" style="max-width: 1400px;">
+
+    <section class="overlap-height second-banner pt-5">
+        <div class="container">
             <div class="row justify-content-center">
-                <span
-                    class="title-small alt-font text-primary font-weight-300 d-block margin-50px-bottom letter-spacing-3px">{{ __('landing.about_us') }}</span>
+                <span class="title-small font-weight-300 d-block margin-50px-bottom"
+                    style="color: #ff6600">{{ __('landing.about_us') }}</span>
             </div>
             <div class="row">
-                <div class="col-6 col-xl-6 col-lg-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center text-lg-start">
                     <div class="aboutUs1">
-                        <div class="img-container">
-                            <img src="landing/images/Group 3586.png" alt="" style="height: 320px; width: 350px" />
-                        </div>
-                        <div class="text-container text-start">
-                            <span>{!! __('landing.home_about_us_desc_line') !!}</span>
+                        <div class="d-flex">
+                            <div class="img-container">
+                                <img src="landing/images/Group 3586.png" alt="">
+                            </div>
+                            <div class="text-container text-start"
+                                style="width: 50%; color:white; background: linear-gradient(0deg, rgba(242,103,17,1) 17%, rgba(254,153,0,1) 59%); border-radius: 20px">
+                                <span>{!! __('landing.home_about_us_desc_line') !!}</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-xl-6 col-lg-6 col-sm-12 text-start d-flex">
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center text-lg-start d-flex">
                     <div class="aboutUs2" style="font-size: 24px; justify-content: center;">
-                        <div class="home-abt-desc py-3">
+                        <div class="home-abt-desc py-3 text-start">
+                            <span class="home_about_us_desc_line1 d-block margin-30px-bottom letter-spacing-3px"
+                                style="color: #ff6600">{!! __('landing.home_about_us_desc_line1') !!}</span>
                             <span
-                                class="alt-font text-primary font-weight-300 d-block margin-30px-bottom letter-spacing-3px">
-                                {!! __('landing.home_about_us_desc_line1') !!}
-                            </span>
-                            <span class="alt-font font-weight-300 d-block letter-spacing-3px">{!! __('landing.home_about_us_desc_line2') !!} <br>
-                                {!! __('landing.home_about_us_desc_line3') !!}</span>
+                                class="home_about_us_desc_line3 d-block letter-spacing-3px line-height-2px">{!! __('landing.home_about_us_desc_line2') !!}<br>{!! __('landing.home_about_us_desc_line3') !!}</span>
                         </div>
                         <div class="home-abt-btn py-3">
                             <a href="{{ route('landing.aboutUs') }}" class="submit-button">
@@ -379,6 +60,7 @@
         </div>
     </section>
 
+
     <section class="overlap-height wow animate__fadeIn py-3 !important"
         style="background: linear-gradient(0deg, rgba(254,153,0,1) 0%, rgba(242,103,17,1) 58%);">
         <div class="container" style="max-width: 1400px;">
@@ -390,9 +72,8 @@
                     </div>
                 </div>
             </div>
-            <!-- Product Section -->
             <div class="row justify-content-center mt-4">
-                <div class="col-12">
+                <div class="col-12 justify-item-center text-center">
                     <div class="tabs">
                         <div class="tab active" data-category="health">{!! __('landing.product_tab_health') !!}</div>
                         <div class="tab" data-category="beauty">{!! __('landing.product_tab_beauty') !!}</div>
@@ -400,34 +81,35 @@
                     </div>
                     <div class="product-grid" id="productGrid">
                     </div>
-                    <div class="py-3">
-                        <button class="view-more-btn" id="viewMoreBtn">{!! __('landing.view_more') !!}</button>
+                    <div class="py-3 justify-item-center">
+                        <button class="view-more-btn rounded-pill" id="viewMoreBtn">{!! __('landing.view_more') !!}</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="overlap-height wow animate__fadeIn" style="background: #FDF3EA">
-        <div class="container" style="max-width: 1400px;">
+
+    <section class="overlap-height" style="background: #FDF3EA">
+        <div class="container">
             <div class="row justify-content-center">
-                <span
-                    class="title-small alt-font text-primary font-weight-300 d-block margin-50px-bottom letter-spacing-3px">{{ __('landing.happbuy_reward_pathway') }}</span>
+                <span class="title-small font-weight-300 d-block margin-50px-bottom"
+                    style="color: #ff6600">{{ __('landing.happbuy_reward_pathway') }}</span>
             </div>
             <div class="row">
-                <div class="col-6 col-xl-6 col-lg-6 col-sm-12">
+                <div class="col-12 col-lg-6 text-center text-lg-start">
                     <div class="aboutUs1">
                         <div class="img-container2">
-                            <img src="landing/images/Group 3584.png" alt="" style="height: 450px; width: 550px" />
+                            <img src="landing/images/Group 3584.png" alt="" />
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-xl-6 col-lg-6 col-sm-12 text-start">
+                <div class="col-12 col-lg-6 text-center text-lg-start">
                     <div class="aboutUs2" style="font-size: 24px">
-                        <div class="home-abt-desc py-3">
-                            <span
-                                class="alt-font text-primary font-weight-300 d-block margin-30px-bottom letter-spacing-3px">{!! __('landing.happybuy_reward_pathway_desc_line1') !!}</span>
-                            <span class="alt-font font-weight-300 d-block letter-spacing-3px">{!! __('landing.happybuy_reward_pathway_desc_line2') !!}</span>
+                        <div class="home-abt-desc py-3 text-start">
+                            <span class="d-block margin-30px-bottom letter-spacing-3px"
+                                style="color: #ff6600">{!! __('landing.happybuy_reward_pathway_desc_line1') !!}</span>
+                            <span class="d-block letter-spacing-3px" style="color: #7A7A7A">{!! __('landing.happybuy_reward_pathway_desc_line2') !!}</span>
                         </div>
                         <div class="home-abt-btn py-3">
                             <a href="{{ route('landing.reward') }}" class="submit-button">
@@ -440,77 +122,71 @@
         </div>
     </section>
 
-    <section class=" overlap-height wow animate__fadeIn"
+    <section class="overlap-height"
         style="background: linear-gradient(0deg, rgba(242,103,17,1) 28%, rgba(254,153,0,1) 81%);">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-xl-8 col-lg-7 col-sm-8 text-center ">
-                    <span class="title-small alt-font dark-gold font-weight-300 d-block letter-spacing-3px"
+                <div class="col-12 col-xl-8 col-lg-7 col-sm-8 text-center pb-3">
+                    <span class="title-small dark-gold font-weight-300 d-block"
                         style="color: white">{{ __('landing.contact_us') }}</span>
                 </div>
-                <div class="lg-padding-30px-lr md-padding-15px-lr sm-margin-40px-bottom ">
-                    <form class="row padding-4-rem-all lg-margin-35px-top md-padding-2-half-rem-all justify-content-center">
-                        <div class="col-12 col-xl-6 col-lg-12">
-                            <div class="p-3">
-                                <input class="small-input bg-white margin-30px-bottom required error rounded-input"
-                                    type="text" name="name" placeholder="{{ __('landing.enter_your_name') }}">
-                                <input class="small-input bg-white margin-30px-bottom required error rounded-input"
-                                    type="text" name="name" placeholder="{{ __('landing.enter_your_contact') }}">
+                <div class="col-12 lg-padding-30px-lr md-padding-15px-lr sm-margin-40px-bottom">
+                    <form class="row contact-form">
+                        <div class="col-12 col-xl-6">
+                            <div class="contact-us-section p-3">
+                                <input class="small-input bg-white margin-30px-bottom required rounded-input" type="text"
+                                    name="name" placeholder="{{ __('landing.enter_your_name') }}">
+                                <input class="small-input bg-white margin-30px-bottom required rounded-input" type="text"
+                                    name="contact" placeholder="{{ __('landing.enter_your_contact') }}">
                                 <input class="small-input bg-white margin-30px-bottom required rounded-input"
                                     type="email" name="email"
                                     placeholder="{{ __('landing.enter_your_email_address') }}">
-                                <textarea class="small-input bg-white margin-30px-bottom required rounded-input" rows="8" name="password"
+                                <textarea class="small-input bg-white margin-30px-bottom required rounded-input" rows="8" name="message"
                                     placeholder="{{ __('landing.type_in_your_message') }}"></textarea>
                                 <button type="submit"
-                                    class="text-medium alt-font font-weight-300 btn bg-white text-uppercase text-orange letter-spacing-2px padding-1-half-rem-lr rounded pb-3">
+                                    class="text-medium rounded-pill font-weight-300 btn bg-white text-uppercase text-orange letter-spacing-2px padding-1-half-rem-lr rounded">
                                     {{ __('landing.submit') }}
                                 </button>
                             </div>
                         </div>
 
-                        <div class="col-12 col-xl-6 col-lg-12">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="p-3">
-                                        <div class="map-style-3 h-200px xs-h-200px">
-                                            <iframe class="w-400 h-100"
-                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.749589750438!2d101.72092417537621!3d3.160567453081512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37a11e1cdecf%3A0x8f5a81cdf3e9a2d7!2sG-Vestor%20Tower!5e0!3m2!1sen!2smy!4v1703069879964!5m2!1sen!2smy"
-                                                width="500" height="350" style="border:0; border-radius: 20px"
-                                                allowfullscreen="" loading="lazy"
-                                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="col-12 col-xl-6">
+                            <div class="p-3">
+                                <div class="map-style-3 h-200px xs-h-200px">
+                                    <iframe class="w-100 h-100"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.749589750438!2d101.72092417537621!3d3.160567453081512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37a11e1cdecf%3A0x8f5a81cdf3e9a2d7!2sG-Vestor%20Tower!5e0!3m2!1sen!2smy!4v1703069879964!5m2!1sen!2smy"
+                                        width="500" height="350" style="border:0; border-radius: 20px"
+                                        allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                                <div class="py-3">
+                                    <div class="d-flex align-items-start" style="color: white">
+                                        <div class="me-3 px-2">
+                                            <i class="fas fa-map-marker-alt"></i>
                                         </div>
-                                        <div class="py-3">
-                                            <div class="d-flex align-items-start" style="color: white">
-                                                <div class="me-3 px-2">
-                                                    <i class="fas fa-map-marker-alt"></i>
-                                                </div>
-                                                <div class="px-3">
-                                                    <ul class="list-unstyled mb-0">
-                                                        <li>HappyBuy</li>
-                                                        <li>
-                                                            <a href="{{ route('landing.contactUs') }}"
-                                                                style="color: white">
-                                                                23A Floor, Menara Keck Seng,<br>
-                                                                203 Jalan Bukit Bintang,<br>
-                                                                55100 Kuala Lumpur, Malaysia
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                        <div class="px-3">
+                                            <ul class="list-unstyled mb-0">
+                                                <li>HappyBuy</li>
+                                                <li>
+                                                    <a href="{{ route('landing.contactUs') }}" style="color: white">
+                                                        23A Floor, Menara Keck Seng,<br>
+                                                        203 Jalan Bukit Bintang,<br>
+                                                        55100 Kuala Lumpur, Malaysia
+                                                    </a>
+                                                </li>
+                                            </ul>
                                         </div>
-                                        <div class="py-3">
-                                            <div class="d-flex align-items-start" style="color: white">
-                                                <div class="me-3 px-2">
-                                                    <i class="fa fa-link"></i>
-                                                </div>
-                                                <div class="px-3">
-                                                    <span><a href="http://happybuy.asia" target="_blank"
-                                                            style="color: white">http://happybuy.asia</a></span>
-                                                </div>
-                                            </div>
+                                    </div>
+                                </div>
+                                <div class="py-3">
+                                    <div class="d-flex align-items-start" style="color: white">
+                                        <div class="me-3 px-2">
+                                            <i class="fa fa-link"></i>
                                         </div>
-
+                                        <div class="px-3">
+                                            <span><a href="http://happybuy.asia" target="_blank"
+                                                    style="color: white">http://happybuy.asia</a></span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -521,45 +197,12 @@
         </div>
     </section>
 
-    {{-- <section class="bg-light-yellow overlap-height wow animate__fadeIn" style="background: #fff5ef;">
-        <span class="text-center alt-font text-primary d-block margin-50px-bottom letter-spacing-3px px-5"
-            style="font-size:30px;">{{ __('landing.2024_plan') }}</span>
-        <div
-            class="padding-twelve-lr xl-padding-five-lr lg-padding-two-lr xs-no-padding-lr d-flex flex-column align-items-center mx-auto">
-            @foreach (__('landing.plans') as $plan)
-                <div class="d-flex flex-column">
-                    <div class="d-flex my-4 px-4" style="max-width:375px;">
-                        <div class="mr-4 primary-gradient p-3 text-white"
-                            style="border-radius:50%;@if (app()->getLocale() == 'en') letter-spacing:3px; @endif">
-                            {!! $plan['month'] !!}</div>
-                        <div class="primary-gradient p-3 text-white custom-title" style="border-radius:12px;flex:1;">
-                            {{ $plan['title'] }}</div>
-                    </div>
-                    <div class="@if (!$loop->last) custom-line @endif d-flex flex-column">
-                        @foreach ($plan['schedules'] as $schedule)
-                            <div class="d-flex">
-                                <div class="mr-4 primary-gradient p-3 text-white" style="border-radius:50%;opacity:0;">
-                                    {{ $plan['month'] }}</div>
-                                <div class="px-3 mb-3 ml-4">
-                                    <div class="text-primary" style="border-radius:12px;width:70vw;font-weight:600;">
-                                        {{ $schedule['date'] }}</div>
-                                    <div class="" style="color:#707070;border-radius:12px;width:70vw;">
-                                        {{ $schedule['event'] }}</div>
-                                </div>
-                            </div>
-                        @endforeach
-                    </div>
-                </div>
-            @endforeach
-        </div>
-    </section> --}}
-
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             let productData = [];
-            let currentIndex = 0; 
-            const productsPerPage = 6;
-            const maxProductsToShow = 18; 
+            let currentIndex = 0;
+            const productsPerPage = 4;
+            const maxProductsToShow = 18;
             let currentCategory = 'health';
 
             // Function to fetch banner data
@@ -575,7 +218,6 @@
                         console.log('Banners data:', data);
                         const bannerData = data.data.banner;
 
-                        // Generate HTML for each banner image
                         const bannerSection = document.getElementById('bannerSection');
                         bannerData.forEach(banner => {
                             const img = document.createElement('img');
@@ -613,6 +255,7 @@
 
             // Function to display products in the product grid
             function displayProducts(products) {
+                console.log('my product', products)
                 const productGrid = document.getElementById('productGrid');
 
                 if (currentIndex === 0) {
@@ -621,11 +264,35 @@
 
                 products.forEach(product => {
                     const productItem = document.createElement('div');
-                    productItem.classList.add('product-item');
+                    productItem.classList.add('col-6', 'col-sm-6', 'col-md-4', 'col-lg-3', 'mb-4');
+                    let langTitle = '';
+                    let locale = `{{ app()->getLocale() }}`;
+                    try {
+                        const titleObj = JSON.parse(product.title);
+                        langTitle = titleObj.en;
+                        switch (locale) {
+                            case 'en':
+                                langTitle = titleObj.en;
+                                break;
+                            case 'zh-Hans':
+                                langTitle = titleObj.zh;
+                                break;
+                        }
+                    } catch (e) {
+                        console.error('Failed to parse product title:', e);
+                    }
                     productItem.innerHTML = `
-                        <img src="${product.main_image}" alt="${product.title}">
-                        <div class="product-name">${product.title}</div>
-                        <div class="product-price">$${product.market_price_min}</div>
+                        <div class="card h-100 product-item">
+                            <a href="{{ route('landing.selectedProductDetails', ['goods_sn' => '${product.goods_sn}']) }}">
+                                <img src="${product.main_image}" class="card-img-top" alt="${product.title}">
+                                <div>
+                                    <span class="card-title">${langTitle}</span>
+                                </div>
+                                <div>
+                                    <span class="card-title">${'RM' + product.market_price_min}</span>
+                                </div>
+                            </a>
+                        </div>
                     `;
                     productGrid.appendChild(productItem);
                 });
@@ -663,10 +330,494 @@
                         console.error('Error loading more products:', error);
                     });
             });
-
-            // Call both fetch functions
             fetchBanners();
             loadInitialProducts(currentCategory);
         });
     </script>
+
+    <style>
+        /* General styles */
+        /* body {
+                                                                        font-family: 'Arial', sans-serif;
+                                                                        margin: 0;
+                                                                        padding: 0;
+                                                                        box-sizing: border-box;
+                                                                    } */
+
+        /* Utility classes */
+        .text-center {
+            text-align: center;
+        }
+
+        .text-start {
+            text-align: start;
+        }
+
+        .d-flex {
+            display: flex;
+        }
+
+        .justify-content-center {
+            justify-content: center;
+        }
+
+        .align-items-center {
+            align-items: center;
+        }
+
+        .flex-column {
+            flex-direction: column;
+        }
+
+        /* Container styles */
+        .container {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Banner section styles */
+        .top-banner {
+            background-image: url('{{ __('landing/images/adomas-aleno-gQuiE815FMc-unsplash.png') }}');
+            background-size: cover;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .phone-image {
+            max-width: 30%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            max-height: 80%;
+        }
+
+        .text-container {
+            text-align: start;
+            align-content: center;
+            font-size: 2rem;
+            font-weight: 300;
+            line-height: 1;
+            padding: 4rem;
+        }
+
+        .title-small {
+            font-size: 1.5rem;
+            line-height: 1.5;
+        }
+
+        /* Second banner section styles */
+        .second-banner {
+            background-color: #FDF3EA;
+            background-image: url('{{ __('landing/images/Mesa de trabajo 1.png') }}');
+            background-size: cover;
+            background-position: center;
+            padding-top: 5rem;
+        }
+
+
+        .aboutUs1 .img-container img,
+        .aboutUs2 .img-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .aboutUs2 {
+            font-size: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-left: 15px;
+        }
+
+        .home-abt-desc {
+            padding-right: 15px;
+        }
+
+        .home-abt-btn {
+            margin-top: 20px;
+        }
+
+        .submit-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: orange;
+            color: white;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-button:hover {
+            background-color: darkorange;
+            /* Darker shade of orange on hover */
+        }
+
+        .custom-banner-wrapper {
+            text-align: center;
+        }
+
+        .custom-banner {
+            max-width: 100%;
+            height: 200px;
+            width: auto;
+        }
+
+        /* Product section styles */
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .product-item {
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 10px;
+            text-align: center;
+        }
+
+        .product-item img {
+            max-height: 300px;
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+        }
+
+        .card-title {
+            font-size: 1rem;
+            margin-bottom: 15px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Tabs styling */
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            background-color: transparent;
+            color: white;
+            padding: 10px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            position: relative;
+            font-size: 18px;
+        }
+
+        .tab.active {
+            font-weight: bold;
+        }
+
+        .tab::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: orange;
+            transition: width 0.3s;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .tab.active::after {
+            width: 100%;
+        }
+
+
+        /* View more button */
+        .view-more-btn {
+            background-color: white;
+            color: orange;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Contact form styles */
+        .contact-form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .contact-form .col {
+            flex: 1 1 100%;
+            padding: 15px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #ff6600;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #e65c00;
+        }
+
+        /* Responsive typography */
+        @media (max-width: 1200px) {
+            .title-small {
+                font-size: 1.2rem;
+            }
+
+            .text-container {
+                text-align: start;
+                align-content: center;
+                font-size: 1.5rem;
+                font-weight: 300;
+                line-height: 1.5;
+                padding: 2rem;
+            }
+
+            .home-abt-desc {
+                font-size: 1.5rem;
+            }
+
+            .second-banner .aboutUs1,
+            .second-banner .aboutUs2 {
+                text-align: center;
+            }
+
+            .product-item {
+                flex: 1 1 calc(50% - 20px);
+            }
+
+            .product-item img {
+                max-height: 250px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .top-banner {
+                height: 50vh;
+            }
+
+            .phone-image {
+                max-width: 30%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+                max-height: 50%;
+            }
+
+            .title-small {
+                font-size: 2rem;
+            }
+
+            .product-item {
+                flex: 1 1 calc(100% - 20px);
+            }
+
+            .contact-form .col {
+                flex: 1 1 100%;
+            }
+
+            .card-title {
+                font-size: 0.9rem;
+            }
+
+            .product-item img {
+                max-height: 180px;
+            }
+
+            .tabs {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+
+            .tab {
+                flex: 1 0 auto;
+                max-width: calc(33.33% - 10px);
+                text-align: center;
+                padding: 10px;
+                background-color: transparent;
+                color: white;
+                cursor: pointer;
+                border-bottom: 3px solid transparent;
+                transition: border-color 0.3s ease;
+            }
+
+            .tab.active {
+                border-color: white;
+            }
+
+            .product-grid {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+            .view-more-btn {
+                display: block;
+                margin: 20px auto;
+                background-color: white;
+                color: orange;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 30px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+            .aboutUs2 {
+                font-size: 18px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: left;
+            }
+
+            .text-container {
+                /* height: 350px; */
+                text-align: start;
+                align-content: center;
+                font-size: 1.5rem;
+                font-weight: 300;
+                line-height: 1.5;
+            }
+
+            .home-abt-desc {
+                /* padding-right: 15px; */
+                text-align: center
+            }
+
+            .home-abt-btn {
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            .submit-button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: orange;
+                color: white;
+                border-radius: 30px;
+                text-decoration: none;
+                transition: background-color 0.3s ease;
+            }
+
+            .submit-button:hover {
+                background-color: darkorange;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .top-banner {
+                height: 50vh;
+            }
+
+            .phone-image {
+                padding-top: 1.5rem;
+                max-width: 40%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+                max-height: 40%;
+            }
+
+            .aboutUs1 {
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+            }
+
+            .text-container {
+                height: 170px;
+                text-align: start;
+                align-content: center;
+                font-size: 1.2rem;
+                font-weight: 300;
+                line-height: 1.5;
+            }
+
+            .home-abt-desc {
+                /* padding-right: 15px; */
+                text-align: center;
+                font-size: 16px;
+            }
+
+            .tabs {
+                flex-direction: flex;
+            }
+
+            .tab {
+                margin: 10px 0;
+            }
+
+            .aboutUs2 {
+                font-size: 16px;
+            }
+
+            .product-item img {
+                max-height: 180px;
+            }
+
+            .custom-banner {
+                /* max-width: 100%; */
+                height: auto;
+                /* width: auto; */
+            }
+
+            .contact-us-section {
+                text-align: center;
+            }
+
+            .home_about_us_desc_line1 {
+                font-size: 16px;
+            }
+
+            .home_about_us_desc_line3 {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .second-banner {
+                padding-top: 10%;
+                padding-bottom: 10%;
+            }
+
+            .aboutUs2 {
+                font-size: 20px;
+            }
+
+            .text-container {
+                /* height: 200px; */
+                text-align: start;
+                /* align-content: center; */
+                font-size: 1.2rem;
+                font-weight: 300;
+                line-height: 1.5;
+            }
+
+            .home-abt-desc {
+                /* padding-right: 15px; */
+                /* text-align: start; */
+                /* font-size: 1.1rem; */
+            }
+        }
+    </style>
 @endsection
