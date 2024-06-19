@@ -356,11 +356,11 @@
                         console.error('Failed to parse product title:', e);
                     }
                     productItem.innerHTML = `
-                        <div class="card h-100 product-item">
+                        <div class="card border-none h-100 product-item">
                             <a href="{{ route('landing.selectedProductDetails', ['goods_sn' => '${product.goods_sn}']) }}">
                                 <img src="${product.main_image}" class="card-img-top" alt="${product.title}">
                                     <div class="card-title">${langTitle}</div>
-                                    <div class="card-title">${'RM' + product.market_price_min}</div>
+                                    <div class="card-price">${'RM' + product.market_price_min}</div>
                             </a>
                         </div>
                     `;
@@ -545,7 +545,7 @@
 
         .product-item {
             flex: 1 1 calc(33.333% - 20px);
-            margin: 10px;
+            /* margin: 10px; */
             text-align: center;
             padding: 0.8rem;
             border-radius: 10px;
@@ -563,6 +563,18 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            text-align: start;
+            margin-bottom: 0px;
+        }
+
+        .card-price {
+            font-size: 1rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #ff6600;
+            font-weight: 700;
+            text-align: start;
         }
 
         /* Tabs styling */
@@ -992,6 +1004,7 @@
 
         /* Responsive Styles */
         @media (max-width: 768px) {
+
             .carousel-control-prev,
             .carousel-control-next {
                 width: 40px;
@@ -1005,6 +1018,7 @@
         }
 
         @media (max-width: 576px) {
+
             .carousel-control-prev,
             .carousel-control-next {
                 width: 30px;

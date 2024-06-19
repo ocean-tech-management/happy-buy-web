@@ -104,6 +104,14 @@
             color: white;
         }
 
+        .mid-banner {
+            background-color: #FDF3EA;
+            background-image: url('{{ __('landing/images/Mesa de trabajo 1.png') }}');
+            background-size: cover;
+            background-position: center;
+            padding-top: 5rem;
+        }
+
         .title-small {
             font-size: 2.5rem;
             line-height: 1.5;

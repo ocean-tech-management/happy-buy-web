@@ -4,7 +4,7 @@
     <style>
         .top-banner {
             background-image: url('{{ __('landing/images/Group 3590.png') }}');
-            height: 840px;
+            height: 100vh;
             background-position: left center;
             background-size: cover;
             position: relative
@@ -72,15 +72,17 @@
                         <img src="landing/images/GC_office.png" alt="GC Office"
                             style="width: 100%; height: 100%; object-fit: cover;" />
                     </div>
-                    <div class="col-md-6 col-sm-12 d-flex flex-column justify-content-center text-start p-5">
-                        <span
-                            class="title-small alt-font text-primary font-weight-300 d-block margin-50px-bottom letter-spacing-3px">
-                            GLOBALCARE
-                        </span>
-                        <h5 class="text-extra-large2 alt-font text-extra-medium-gray font-weight-300 letter-spacing-minus-1px mb-0"
-                            style="line-height: 42px">
-                            {{ __('landing.about_happy_buy_description') }}
-                        </h5>
+                    <div class="col-md-6 col-sm-12 d-flex flex-column justify-content-center text-start">
+                        <div class="p-5">
+                            <span
+                                class="title-small alt-font text-primary font-weight-300 d-block margin-30px-bottom letter-spacing-3px">
+                                GLOBALCARE
+                            </span>
+                            <h5 class="text-extra-large2 alt-font text-extra-medium-gray font-weight-300 letter-spacing-minus-1px mb-0"
+                                style="line-height: 42px">
+                                {{ __('landing.about_happy_buy_description') }}
+                            </h5>
+                        </div>
                     </div>
                 </div>
                 {{-- </div> --}}
@@ -92,11 +94,12 @@
     <section class="bg-light-yellow overlap-height wow animate__fadeIn pb-0 pt-2 !important"
         style="background: linear-gradient(0deg, rgba(242,103,17,1) 28%, rgba(254,153,0,1) 81%);">
         {{-- <div class="padding-twelve-lr xl-padding-five-lr lg-padding-two-lr xs-no-padding-lr"> --}}
-            <div class="container-fluid">
-                <div class="row justify-content-center">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
 
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center text-start p-5">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 text-start">
+                        <div class="d-flex flex-column justify-content-center p-5">
                             <span class="alt-font text-extra-medium-gray font-weight-300 letter-spacing-minus-1px"
                                 style="line-height: 42px; color: #FFFFFF; font-size: 20px;">
                                 {{ __('landing.about_happy_buy_line1') }}
@@ -114,13 +117,14 @@
                                 {{ __('landing.about_happy_buy_line4') }}
                             </span>
                         </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12 pr-0" style="height: 400px;">
-                            <img src="landing/images/iPhone 14 Pro Mockup copy.png" alt="GC Office"
-                                style="width: 100%; height: 100%; object-fit: cover;" />
-                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 pr-0" style="height: 400px;">
+                        <img src="landing/images/iPhone 14 Pro Mockup copy.png" alt="GC Office"
+                            style="width: 100%; height: 100%; object-fit: cover;" />
                     </div>
                 </div>
             </div>
+        </div>
         {{-- </div> --}}
     </section>
 

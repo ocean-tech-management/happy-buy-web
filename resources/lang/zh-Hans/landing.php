@@ -36,7 +36,7 @@ return [
     'our_vision' => '我们的愿景',
     'our_vision_description' => '全球大健康产业领导者，推动行业繁荣。',
     'home_blue' => '依托母公司Global Hot Chain强大的全球供应链体系 我们确保每一件商品都经过严格筛选。 我们始终坚持为您挑选最好的。',
-    'self_love_and_confidence' => 'HAPPY BUY MALL',
+    'self_love_and_confidence' => 'HappyBuy 作为全球热链集团在纽约的核心电子商务平台，诞生于全球化和数字化日益融合的时代。',
     'starts_from' => '全球购物',
     'the_innerself' => '首选之地',
     'erya_at_a_glance_' => '简单介绍',
