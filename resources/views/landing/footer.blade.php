@@ -9,9 +9,12 @@
                         <li>HappyBuy</li>
                         <li>
                             <a href="{{ route('landing.contactUs') }}">
-                            23A Floor, Menara Keck Seng,
-                            203 Jalan Bukit Bintang,  
-                            55100 Kuala Lumpur, Malaysia
+                            MXB TOWER
+                            SOUTHBANK COMMERCIAL
+                            UNIT SB/BO-02,BLOCK 2,
+                            PUSAT KOMERSIAL TEBING SELATAN,
+                            NO.179,JALAN KLANG LAMA,
+                            58000 KUALA LUMPUR.
                             </a>
                         </li>
                         <li>supporthappybuy@gmail.com</li>
