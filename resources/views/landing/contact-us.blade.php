@@ -32,7 +32,7 @@
                             <div class="p-3">
                                 <div class="map-style-3 h-200px xs-h-200px">
                                     <iframe class="w-100 h-100"
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.749589750438!2d101.72092417537621!3d3.160567453081512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37a11e1cdecf%3A0x8f5a81cdf3e9a2d7!2sG-Vestor%20Tower!5e0!3m2!1sen!2smy!4v1703069879964!5m2!1sen!2smy"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9764376445205!2d101.6738661755631!3d3.1009194968746803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4be981858437%3A0xe475e417fa8ef249!2sMXB%20TOWER-MXB%20International!5e0!3m2!1sen!2smy!4v1733990787914!5m2!1sen!2smy"
                                         width="500" height="350" style="border:0; border-radius: 20px"
                                         allowfullscreen="" loading="lazy"
                                         referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -47,9 +47,12 @@
                                                 <li>HappyBuy</li>
                                                 <li>
                                                     <a href="{{ route('landing.contactUs') }}" style="color: white">
-                                                        23A Floor, Menara Keck Seng,<br>
-                                                        203 Jalan Bukit Bintang,<br>
-                                                        55100 Kuala Lumpur, Malaysia
+                                                        MXB TOWER
+                                                        SOUTHBANK COMMERCIAL
+                                                        UNIT SB/BO-02,BLOCK 2,
+                                                        PUSAT KOMERSIAL TEBING SELATAN,
+                                                        NO.179,JALAN KLANG LAMA,
+                                                        58000 KUALA LUMPUR.
                                                     </a>
                                                 </li>
                                             </ul>
