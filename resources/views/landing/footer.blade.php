@@ -6,7 +6,7 @@
                 <div class="col-12 col-lg-4 col-sm-6 xs-margin-25px-bottom">
                     <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.contact_information') }}</span>
                     <ul>
-                        <li>HappyBuy</li>
+                        <li>GLOBALCARE ONE STOP SOLUTIONS SDN. BHD. (1540496-K)</li>
                         <li>
                             <a href="{{ route('landing.contactUs') }}">
                             MXB TOWER
@@ -17,7 +17,13 @@
                             58000 KUALA LUMPUR.
                             </a>
                         </li>
-                        <li>supporthappybuy@gmail.com</li>
+                        <li>
+                            Customer Service Contact Number
+                            <br>
+                            &bullet; 60189596003
+                            <br>
+                            &bullet; 60189596004
+                        </li>
                     </ul>
                 </div>
                 {{-- <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">

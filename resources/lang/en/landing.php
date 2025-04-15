@@ -447,7 +447,7 @@ return [
     'privacy_policy' => 'Privacy Policy',
     'terms_of_use' => 'Terms of Use',
     'delivery_policy' => 'Delivery Policy',
-    'refund_&_return_policy' => 'Refund & Return Policy',
+    'refund_&_return_policy' => 'Refund, Cancellation & Shipping Policy',
     'healthcare' => 'Healthcare',
     'lifestyle' => 'Lifestyle',
     'about_happy_buy' => 'About Happy Buy',

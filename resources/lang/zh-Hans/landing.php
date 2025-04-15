@@ -448,7 +448,7 @@ return [
     'privacy_policy' => '隐私政策',
     'terms_of_use' => '使用条款',
     'delivery_policy' => '邮寄政策',
-    'refund_&_return_policy' => '退款&退货政策',
+    'refund_&_return_policy' => '退款 ,取消 & 运输政策',
     'healthcare' => '保健',
     'lifestyle' => '生活方式',
     'about_happy_buy' => '关于HappyBuy',
