@@ -12,7 +12,7 @@ return [
     'captcha_error' => 'Invalid Captcha',
 
     //home
-    'happbuy_reward_pathway' => 'Happbuy Reward Pathway',
+    'happbuy_reward_pathway' => 'Happybuy Reward Pathway',
     'about_below_one' => 'Over 10 countries and regions',
     'about_below_two' => 'Over 6,000 stores',
     'about_below_three' => 'Over 1.8 billion USD',
@@ -36,7 +36,7 @@ return [
     'our_vision_description' => 'Become a global leader in the health industry and drive industry prosperity. Happy Buy Mall 2024 Development Plan',
     'low_price_flash_sale' => 'Low Price Flash Sale',
     'home_blue' => 'Relying on the powerful global supply chain system of our parent company Global Hot Chain, we ensure that every product is strictly screened. We always insist on choosing the best for you.',
-    'self_love_and_confidence' => 'HappyBuy, as the core e-commerce platform under Global Hot Chain Group in New York, was born in an era where globalization and digitalization are increasingly integrated.',
+    'self_love_and_confidence' => 'HappyBuy an e-commerce platform was born in an era where globalization and digitalization are increasingly integrated.',
     'starts_from' => 'Your Global',
     'the_innerself' => 'Shopping Destination',
     'erya_at_a_glance_' => 'ERYA AT A GLANCE',
@@ -357,7 +357,7 @@ return [
     'erya_at_a_glance' => 'ERYA AT A GLANCE',
     'about_happy_buy_' => 'About Us',
     'about_happy_buy_description' => 'GlobalCare is the official registered entity of HappyBuy in Malaysia, playing a crucial role in providing the full range of HappyBuy products and services to the Asia-Pacific market.',
-    'about_happy_buy_line1' => 'Happbuy',
+    'about_happy_buy_line1' => 'Happybuy',
     'about_happy_buy_line2' => 'HappyBuy App is an e-commerce platform focusing on healthcare, beauty & skincare, and technological lifestyle essential products.',
     'about_happy_buy_line3' => 'HappyBuy encourages everyone to live a healthy and happy life.',
     'about_happy_buy_line4' => 'Happy buy at HAPPYBUY mobile app!',
